@@ -1,6 +1,6 @@
 package pattern.facade;
 
-public interface ÖÊ¼ì¾Ö {
+public interface è´¨æ£€å±€ {
 
 	void orgCodeCertificate();
 

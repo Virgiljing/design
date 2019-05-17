@@ -7,13 +7,13 @@ class LowSeat implements Seat{
 
 	@Override
 	public void massage() {
-		System.out.println("ÆÕÍ¨×ùÒÎ");
+		System.out.println("æ™®é€šåº§æ¤…");
 	}
 }
 class LuxurySeat implements Seat{
 	
 	@Override
 	public void massage() {
-		System.out.println("¿ÉÒÔ×Ô¶¯°´Ä¦");
+		System.out.println("å¯ä»¥è‡ªåŠ¨æŒ‰æ‘©");
 	}
 }

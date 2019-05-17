@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 /**
- * @author ÕÅº½Ãú
- *	È¥³ıArrayList¼¯ºÏÖĞµÄÖØ¸´ÔªËØ
- *	ÔÚµü´úÊ±Ñ­»·ÖĞnextÖµµ÷ÓÃÒ»´ÎhasNextÖ»ÅĞ¶ÏÒ»´Î
+ * @author å¼ èˆªé“­
+ *	å»é™¤ArrayListé›†åˆä¸­çš„é‡å¤å…ƒç´ 
+ *	åœ¨è¿­ä»£æ—¶å¾ªç¯ä¸­nextå€¼è°ƒç”¨ä¸€æ¬¡hasNextåªåˆ¤æ–­ä¸€æ¬¡
  */
 public class ArrayListTest {
 	public static void main(String[] args) {

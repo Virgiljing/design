@@ -2,6 +2,6 @@ package factory.factorymethod;
 
 public class BenChi implements Car {
 	public void run() {
-		System.out.println("±¼³ÛÔÚÅÜ......");
+		System.out.println("å¥”é©°åœ¨è·‘......");
 	}
 }

@@ -4,11 +4,11 @@ import java.util.Enumeration;
 import java.util.Vector;
 
 /**
- * @author ÕÅº½Ãú
- * Ã¶¾Ù¾ÍÊÇVectorÌØÓĞµÄÈ¡³ö·½Ê½¡£
- * Ã¶¾ÙºÍµü´úÆ÷Ò»Ñù
- * ÒòÎªÃ¶	¾ÙÃû×Ö¹ı³¤
- * ±»µü´úÆ÷È¡´úÁË
+ * @author å¼ èˆªé“­
+ * æšä¸¾å°±æ˜¯Vectorç‰¹æœ‰çš„å–å‡ºæ–¹å¼ã€‚
+ * æšä¸¾å’Œè¿­ä»£å™¨ä¸€æ ·
+ * å› ä¸ºæš	ä¸¾åå­—è¿‡é•¿
+ * è¢«è¿­ä»£å™¨å–ä»£äº†
  */
 public class VectorDemo {
 	public static void main(String[] args) {

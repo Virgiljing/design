@@ -1,11 +1,11 @@
 package template.method;
 
 /**
- * @author �ź���
- *	ģ�巽�����ģʽ
- *	�ڶ��幦��ʱ�����ܵ�һ������ȷ���ģ���һ�����ǲ�ȷ���ģ�
- *	��ȷ���Ĳ�����ʹ�ò�ȷ���Ĳ��֣�
- *	��ô��ʱ����ȷ���Ĳ��ֱ�¶��ȥ���и��������ȥ��ɡ�
+ * @author 张航铭
+ *	模板方法设计模式
+ *	在定义功能时，功能的一部分是确定的，有一部分是不确定的，
+ *	而确定的部分在使用不确定的部分，
+ *	那么这时将不确定的部分暴露出去，有该类的子类去完成。
  */
 abstract class GetTime{
 	public final long getTime() {

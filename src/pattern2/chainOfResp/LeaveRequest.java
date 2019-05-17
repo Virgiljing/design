@@ -1,8 +1,8 @@
 package pattern2.chainOfResp;
 
 /**
- * ·â×°Çë¼Ù»ù±¾ĞÅÏ¢
- * @author ÕÅº½Ãú
+ * å°è£…è¯·å‡åŸºæœ¬ä¿¡æ¯
+ * @author å¼ èˆªé“­
  *
  */
 public class LeaveRequest {

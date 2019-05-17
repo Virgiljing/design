@@ -12,10 +12,10 @@ public class CollectionsToArray {
 		al.add("abc3");
 		al.add("abc4");
 		/*
-		 * ָ�����͵����鳤��С�ڼ��ϵ�size����ô�÷����ڲ��ᴴ��һ���µ����飬����Ϊ���ϵ�size
-		 * ��ָ����������ĳ��Ĵ��ڼ��ϵ�size���Ͳ��ᴴ�������飬����ʹ�ô��ݽ���������
+		 * 指定类型的数组长度小于集合的size，那么该方法内部会创建一个新的数组，长度为集合的size
+		 * 当指定类型数组的长的大于集合的size，就不会创建新数组，而是使用传递进来的数组
 		 * 
-		 * ���ϱ�����Ϊ���޶���Ԫ�صĲ���
+		 * 集合便数组为了限定对元素的操作
 		 */
 		String[] arr = al.toArray(new String[5]);
 		System.out.println(Arrays.asList(arr));

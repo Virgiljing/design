@@ -1,18 +1,18 @@
 package pattern.facade;
 
 /**
- * @author ÕÅº½Ãú
- * °ìÀí×¢²á¹«Ë¾Á÷³ÌµÄÃÅÃæ¶ÔÏó
+ * @author å¼ èˆªé“­
+ * åŠç†æ³¨å†Œå…¬å¸æµç¨‹çš„é—¨é¢å¯¹è±¡
  */
 public class RegisterFacade {
 	public void register() {
-		¹¤ÉÌ¾Ö a = new º£µíÇø¹¤ÉÌ¾Ö();
+		å·¥å•†å±€ a = new æµ·æ·€åŒºå·¥å•†å±€();
 		a.checkName();
-		ÖÊ¼ì¾Ö b = new º£µíÖÊ¼ì¾Ö();
+		è´¨æ£€å±€ b = new æµ·æ·€è´¨æ£€å±€();
 		b.orgCodeCertificate();
-		Ë°Îñ¾Ö c = new º£µíË°Îñ¾Ö();
+		ç¨åŠ¡å±€ c = new æµ·æ·€ç¨åŠ¡å±€();
 		c.taxCertificate();
-		ÒøĞĞ d = new ÖĞ¹ú¹¤ÉÌÒøĞĞ();
+		é“¶è¡Œ d = new ä¸­å›½å·¥å•†é“¶è¡Œ();
 		d.openAccount();
 	}
 }

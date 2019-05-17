@@ -1,10 +1,10 @@
 package daliyPractice;
-import static java.lang.System.*;//µ¼ÈëÀàÖĞµÄ¾²Ì¬³ÉÔ±
+import static java.lang.System.*;//å¯¼å…¥ç±»ä¸­çš„é™æ€æˆå‘˜
 /**
- * @author ÕÅº½Ãú
+ * @author å¼ èˆªé“­
  * 
- * µ±ÀàÃûÖØÃûÊ±£¬ĞèÒªÖ¸¶¨¾ßÌåµÄ°üÃû¡£
- * µ±·½·¨ÖØÃûÊ±£¬ĞèÒªÖ¸¶¨¾ßÌåµÄÀàÃû
+ * å½“ç±»åé‡åæ—¶ï¼Œéœ€è¦æŒ‡å®šå…·ä½“çš„åŒ…åã€‚
+ * å½“æ–¹æ³•é‡åæ—¶ï¼Œéœ€è¦æŒ‡å®šå…·ä½“çš„ç±»å
  */
 public class Import_Static {
 	public static void main(String[] args) {

@@ -7,26 +7,26 @@ import java.util.ListIterator;
 
 
 /**
- * @author ÕÅº½Ãú
+ * @author å¼ èˆªé“­
  * 
  * Collection
- *     |--List: ÔªËØÊÇÓĞĞòµÄ£¬ÔªËØ¿ÉÒÔÖØ¸´¡£ÒòÎª¸Ã¼¯ºÏÌåÏµÓĞË÷Òı¡£
- *         |--ArrayList:µÍ²ãµÄÊı¾İ½á¹¹Ê¹ÓÃµÄÊÇÊı×é½á¹¹¡£ÌØµã£º²éÑ¯ËÙ¶È¿ì£¬ÔöÉ¾ÉÔÂı¡£Ïß³Ì²»Í¬²½
- *         |--LinkedList:µ×²ãÊ¹ÓÃµÄÁ´±íÊı¾İ½á¹¹¡£ÌØµã£ºÔöÉ¾ËÙ¶ÈºÜ¿ì£¬²éÑ¯ÉÔÂı¡£
- *         |--Vector:µ×²ãÊ¹Êı×éÊı¾İ½á¹¹¡£Ïß³ÌÍ¬²½¡£±»ArrayListÌæ´ú
- *     |--Set : ÔªËØÊÇÓĞĞò£¬ÔªËØ²»¿ÉÒÔÖØ¸´
+ *     |--List: å…ƒç´ æ˜¯æœ‰åºçš„ï¼Œå…ƒç´ å¯ä»¥é‡å¤ã€‚å› ä¸ºè¯¥é›†åˆä½“ç³»æœ‰ç´¢å¼•ã€‚
+ *         |--ArrayList:ä½å±‚çš„æ•°æ®ç»“æ„ä½¿ç”¨çš„æ˜¯æ•°ç»„ç»“æ„ã€‚ç‰¹ç‚¹ï¼šæŸ¥è¯¢é€Ÿåº¦å¿«ï¼Œå¢åˆ ç¨æ…¢ã€‚çº¿ç¨‹ä¸åŒæ­¥
+ *         |--LinkedList:åº•å±‚ä½¿ç”¨çš„é“¾è¡¨æ•°æ®ç»“æ„ã€‚ç‰¹ç‚¹ï¼šå¢åˆ é€Ÿåº¦å¾ˆå¿«ï¼ŒæŸ¥è¯¢ç¨æ…¢ã€‚
+ *         |--Vector:åº•å±‚ä½¿æ•°ç»„æ•°æ®ç»“æ„ã€‚çº¿ç¨‹åŒæ­¥ã€‚è¢«ArrayListæ›¿ä»£
+ *     |--Set : å…ƒç´ æ˜¯æœ‰åºï¼Œå…ƒç´ ä¸å¯ä»¥é‡å¤
  *     
  *     
  *     
- *  List¼¯ºÏÖĞÌØÓĞµÄµü´úÆ÷¡£ListIteratorÊÇIteratorµÄ×Ó½Ó¿Ú¡£
- *  ÔÚµü´úÊ±£¬²»¿ÉÒÔÍ¨¹ı¼¯ºÏ¶ÔÏóµÄ·½·¨²Ù×÷¼¯ºÏÖĞµÄÔªËØ¡£
- *  ÒòÎª»á·¢ÉúConcurrentModificationExceptionÒì³£¡£
+ *  Listé›†åˆä¸­ç‰¹æœ‰çš„è¿­ä»£å™¨ã€‚ListIteratoræ˜¯Iteratorçš„å­æ¥å£ã€‚
+ *  åœ¨è¿­ä»£æ—¶ï¼Œä¸å¯ä»¥é€šè¿‡é›†åˆå¯¹è±¡çš„æ–¹æ³•æ“ä½œé›†åˆä¸­çš„å…ƒç´ ã€‚
+ *  å› ä¸ºä¼šå‘ç”ŸConcurrentModificationExceptionå¼‚å¸¸ã€‚
  *  
- *  ËùÒÔÔÚµü´úÊ±£¬Ö»ÄÜÓÃµü´úÆ÷µÄ·½·¨²Ù×÷ÔªËØ£¬µ«ÊÇIteratorµÄ·½·¨ºÜÉÙ
- *  Ö»ÄÜ¶ÔÔªËØ½øĞĞÅĞ¶Ï£¬È¡³ö£¬É¾³ıµÄ²Ù×÷£¬
- *  Èç¹ûÏëÌí¼Ó£¬ĞŞ¸ÄµÈ¾ÍĞèÒªÊ¹ÓÃÆä×Ó½Ó¿Ú£¬ListIterator
+ *  æ‰€ä»¥åœ¨è¿­ä»£æ—¶ï¼Œåªèƒ½ç”¨è¿­ä»£å™¨çš„æ–¹æ³•æ“ä½œå…ƒç´ ï¼Œä½†æ˜¯Iteratorçš„æ–¹æ³•å¾ˆå°‘
+ *  åªèƒ½å¯¹å…ƒç´ è¿›è¡Œåˆ¤æ–­ï¼Œå–å‡ºï¼Œåˆ é™¤çš„æ“ä½œï¼Œ
+ *  å¦‚æœæƒ³æ·»åŠ ï¼Œä¿®æ”¹ç­‰å°±éœ€è¦ä½¿ç”¨å…¶å­æ¥å£ï¼ŒListIterator
  *  
- *  ¸Ã½Ó¿ÚÖ»ÄÜÍ¨¹ıList¼¯ºÏµÄlistIterator·½·¨»ñÈ¡
+ *  è¯¥æ¥å£åªèƒ½é€šè¿‡Listé›†åˆçš„listIteratoræ–¹æ³•è·å–
  */
 public class ListDemo {
 	public static void main(String[] args) {
@@ -46,12 +46,12 @@ public class ListDemo {
 			System.out.println(string);
 		}
 		
-		//Í¨¹ıindexOf»ñÈ¡¶ÔÏóµÄÎ»ÖÃ
+		//é€šè¿‡indexOfè·å–å¯¹è±¡çš„ä½ç½®
 		System.out.println(list.indexOf("java02"));
 		List<String> subList = list.subList(1, 3);
 		System.out.println(subList);
 		
-		//ÔÚµü´ú¹ı³ÌÖĞ£¬×¼±¸Ìí¼Ó»òÉ¾³ıÔªËØ
+		//åœ¨è¿­ä»£è¿‡ç¨‹ä¸­ï¼Œå‡†å¤‡æ·»åŠ æˆ–åˆ é™¤å…ƒç´ 
 		System.out.println("------------------------");
 		Iterator<String> iterator2 = list.iterator();
 		while (iterator2.hasNext()) {
@@ -59,7 +59,7 @@ public class ListDemo {
 			if (string.equals("java02")) {
 				//list.add("java008");
 				//java.util.ConcurrentModificationException
-				iterator2.remove();//java02´ÓlistÖĞÒÆ³ı
+				iterator2.remove();//java02ä»listä¸­ç§»é™¤
 				System.out.println(string);
 			}
 		}
@@ -77,8 +77,8 @@ public class ListDemo {
 		}
 		System.out.println(list);
 		System.out.println("----------------------");
-		System.out.println(listIterator.hasPrevious());//Ç°±ßÊÇ·ñÓĞÔªËØ
-		System.out.println(listIterator.hasNext());//ºó±ßÊÇ·ñÓĞÔªËØ
+		System.out.println(listIterator.hasPrevious());//å‰è¾¹æ˜¯å¦æœ‰å…ƒç´ 
+		System.out.println(listIterator.hasNext());//åè¾¹æ˜¯å¦æœ‰å…ƒç´ 
 		while (listIterator.hasPrevious()) {
 			System.out.println(listIterator.previous());
 		}

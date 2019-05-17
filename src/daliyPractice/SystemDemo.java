@@ -4,22 +4,22 @@ import java.util.Properties;
 import java.util.Set;
 
 /**
- * @author ÕÅº½Ãú
- *	systemµÄ½éÉÜ
+ * @author å¼ èˆªé“­
+ *	systemçš„ä»‹ç»
  */
 public class SystemDemo {
 	public static void main(String[] args) {
-		//ÒòÎªPropertiesÊÇHashtableµÄ×ÓÀà£¬Ò²¾ÍÊÇMap¼¯ºÏµÄÒ»¸ö×ÓÀà¶ÔÏó¡£
+		//å› ä¸ºPropertiesæ˜¯Hashtableçš„å­ç±»ï¼Œä¹Ÿå°±æ˜¯Mapé›†åˆçš„ä¸€ä¸ªå­ç±»å¯¹è±¡ã€‚
 		Properties properties = System.getProperties();
-		//ÔÚÏµÍ³ÊôĞÔÖĞ×Ô¶¨ÒåÒ»Ğ©ĞÅÏ¢
+		//åœ¨ç³»ç»Ÿå±æ€§ä¸­è‡ªå®šä¹‰ä¸€äº›ä¿¡æ¯
 		System.setProperty("myKey", "myValue");
-		//±éÀúÏµÍ³ÊôĞÔ
+		//éå†ç³»ç»Ÿå±æ€§
 		Set<Object> keySet = properties.keySet();
 		for (Object object : keySet) {
 			String value = (String) properties.get(object);
 			System.out.println(object+"::"+value);
 		}
-		//»ñµÃÖ¸¶¨ÊôĞÔĞÅÏ¢
+		//è·å¾—æŒ‡å®šå±æ€§ä¿¡æ¯
 		String value = System.getProperty("os.name");
 		System.out.println("value"+"----"+value);
 		

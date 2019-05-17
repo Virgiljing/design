@@ -3,10 +3,10 @@ package collectiontest.demo;
 import java.util.LinkedList;
 
 /**
- * Ê¹ÓÃLinkedList Ä£ÄâÒ»¸ö¶ÑÕ»»òÕß¶ÓÁĞÊı¾İ½á¹¹¡£
+ * ä½¿ç”¨LinkedList æ¨¡æ‹Ÿä¸€ä¸ªå †æ ˆæˆ–è€…é˜Ÿåˆ—æ•°æ®ç»“æ„ã€‚
  * 
- * ¶ÑÕ»£ºÏÈ½øºó³ö
- * ¶ÓÁĞ£ºÏÈ½øÏÈ³ö
+ * å †æ ˆï¼šå…ˆè¿›åå‡º
+ * é˜Ÿåˆ—ï¼šå…ˆè¿›å…ˆå‡º
  */
 public class LinkedListTest {
 	public static void main(String[] args) {

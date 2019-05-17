@@ -4,7 +4,7 @@ import java.io.UnsupportedEncodingException;
 
 public class Bianma {
 	public static void main(String[] args) throws UnsupportedEncodingException {
-		String name = "ÕÅº½Ãú";
+		String name = "å¼ èˆªé“­";
 		byte[] bytes = name.getBytes("UTF-8");
 		String string = new String(bytes, "ISO-8859-1");
 		System.out.println(string);

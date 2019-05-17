@@ -7,8 +7,8 @@ import java.util.List;
 
 
 /**
- * @author ÕÅº½Ãú
- * ¼¯ºÏ¿ò¼Ü¹¤¾ßÀà
+ * @author å¼ èˆªé“­
+ * é›†åˆæ¡†æ¶å·¥å…·ç±»
  * Collections:
  */
 public class CollectionsDemo {

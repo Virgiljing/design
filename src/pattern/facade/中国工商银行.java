@@ -1,8 +1,8 @@
 package pattern.facade;
 
-public class 中国工商银行 implements 银行 {
+public class 涓浗宸ュ晢閾惰 implements 閾惰 {
 	@Override
 	public void openAccount() {
-		System.out.println("在中国工商银行开户！");
+		System.out.println("鍦ㄤ腑鍥藉伐鍟嗛摱琛屽紑鎴凤紒");
 	}
 }

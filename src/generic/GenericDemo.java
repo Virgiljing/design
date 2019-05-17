@@ -1,14 +1,12 @@
 package generic;
 
-import com.sun.org.apache.xerces.internal.util.SynchronizedSymbolTable;
-
 /**
- * @author ÕÅº½Ãú
- *	·ºÐÍ£ºJDK1.5°æ±¾ÒÔºó³öÏÖµÄÐÂÌØÐÔ¡£ÓÃÓÚ½â¾ö°²È«ÎÊÌâ£¬ÊÇÒ»¸ö°²È«»úÖÆ¡£
- *	ºÃ´¦
- *  1.½«ÔËÐÐÊ±ÆÚ³öÏÖµÄÎÊÌâClassCastException£¬×ªÒÆµ½±àÒëÊ±ÆÚ¡£
- *      ·½±ãÓÚ³ÌÐòÔ±½â¾öÎÊÌâ¡£ÈÃÔËÐÐÊÂÇéÎÊÌâ¼õÉÙ£¬°²È«¡£
- *  2.±ÜÃâÁËÇ¿ÖÆÀàÐÍ×ª»»µÄÂé·³
+ * @author å¼ èˆªé“­
+ *	æ³›åž‹ï¼šJDK1.5ç‰ˆæœ¬ä»¥åŽå‡ºçŽ°çš„æ–°ç‰¹æ€§ã€‚ç”¨äºŽè§£å†³å®‰å…¨é—®é¢˜ï¼Œæ˜¯ä¸€ä¸ªå®‰å…¨æœºåˆ¶ã€‚
+ *	å¥½å¤„
+ *  1.å°†è¿è¡Œæ—¶æœŸå‡ºçŽ°çš„é—®é¢˜ClassCastExceptionï¼Œè½¬ç§»åˆ°ç¼–è¯‘æ—¶æœŸã€‚
+ *      æ–¹ä¾¿äºŽç¨‹åºå‘˜è§£å†³é—®é¢˜ã€‚è®©è¿è¡Œäº‹æƒ…é—®é¢˜å‡å°‘ï¼Œå®‰å…¨ã€‚
+ *  2.é¿å…äº†å¼ºåˆ¶ç±»åž‹è½¬æ¢çš„éº»çƒ¦
  *  
  *  
  */
@@ -41,13 +39,13 @@ class Worker{}
 
 
 /**
- * @author ÕÅº½Ãú
+ * @author å¼ èˆªé“­
  *
  * @param <QQ>
- * ·ºÐÍÀà¡£
- * ·Å²Ù×÷µÄÓ¦ÓÃÊý¾ÝÀàÐÍ²»È·¶¨µÄÊ±ºò
- * ÔçÆÚ¶¨ÒåObjectÀ´Íê³ÉÀ©Õ¹
- * ÏÖÔÚ¶¨Òå·ºÐÍÀàÀ´Íê³ÉÀ©Õ¹
+ * æ³›åž‹ç±»ã€‚
+ * æ”¾æ“ä½œçš„åº”ç”¨æ•°æ®ç±»åž‹ä¸ç¡®å®šçš„æ—¶å€™
+ * æ—©æœŸå®šä¹‰Objectæ¥å®Œæˆæ‰©å±•
+ * çŽ°åœ¨å®šä¹‰æ³›åž‹ç±»æ¥å®Œæˆæ‰©å±•
  * 
  */
 class Tool<QQ>{
@@ -64,15 +62,15 @@ class Tool<QQ>{
 }
 
 /**
- * @author ÕÅº½Ãú
+ * @author å¼ èˆªé“­
  *
  * @param <T>
  * 
- * ·ºÐÍÀà¶¨ÒåµÄ·ºÐÍ£¬ÔÚÕû¸öÀàÖÐÓÐÐ§¡£Èç¹û±»·½·¨Ê¹ÓÃ£¬
- * ÄÇÃ´·ºÐÍÀàµÄ¶ÔÏóÃ÷È·²Ù×÷µÄ¾ßÌåÀàÐÍºó£¬ËùÓÐÒª²Ù×÷µÄÀàÐÍ¾ÍÒÑ¾­¹Ì¶¨ÁË
+ * æ³›åž‹ç±»å®šä¹‰çš„æ³›åž‹ï¼Œåœ¨æ•´ä¸ªç±»ä¸­æœ‰æ•ˆã€‚å¦‚æžœè¢«æ–¹æ³•ä½¿ç”¨ï¼Œ
+ * é‚£ä¹ˆæ³›åž‹ç±»çš„å¯¹è±¡æ˜Žç¡®æ“ä½œçš„å…·ä½“ç±»åž‹åŽï¼Œæ‰€æœ‰è¦æ“ä½œçš„ç±»åž‹å°±å·²ç»å›ºå®šäº†
  * 
- * ÎªÁËÈÃ²»Í¬·½·¨²Ù×÷²»Í¬ÀàÐÍ£¬¶øÇÒÀàÐÍ»¹²»È·¶¨¡£
- * ¿ÉÒÔ½«·ºÐÍ¶¨ÒåÔÚ·½·¨ÉÏ¡£
+ * ä¸ºäº†è®©ä¸åŒæ–¹æ³•æ“ä½œä¸åŒç±»åž‹ï¼Œè€Œä¸”ç±»åž‹è¿˜ä¸ç¡®å®šã€‚
+ * å¯ä»¥å°†æ³›åž‹å®šä¹‰åœ¨æ–¹æ³•ä¸Šã€‚
  */
 class Demo<T>{
 	public void show(T t) {
@@ -100,8 +98,8 @@ class Demo2<T>{
 }
 
 /**
- * ÌØÊâÖ®´¦£º
- * ¾²Ì¬·½·¨²»¿ÉÒÔ·ÃÎÊÀàÉÏµÄ·ÅÐÐ
+ * ç‰¹æ®Šä¹‹å¤„ï¼š
+ * é™æ€æ–¹æ³•ä¸å¯ä»¥è®¿é—®ç±»ä¸Šçš„æ”¾è¡Œ
  */
 
 class Demo3<T>{
@@ -117,11 +115,11 @@ class Demo3<T>{
 }
 
 /**
- * @author ÕÅº½Ãú
+ * @author å¼ èˆªé“­
  *
  * @param <T>
  * 
- * ·ºÐÍ¶¨Òåµ½½Ó¿ÚÉÏ
+ * æ³›åž‹å®šä¹‰åˆ°æŽ¥å£ä¸Š
  */
 interface Inter<T>{
 	void show(T t);
@@ -140,11 +138,11 @@ class InterImpl1<T> implements Inter<T>{
 	public void show(T t) {
 		System.out.println("show:"+t);
 	}
-	//ÉùÃ÷×ÓÀà¾ßÌåÀàÐÍ
-	//ÉùÃ÷×ÓÀà·ºÐÍÀàÐÍ
-	//²Á³ö  -->¼Ì³Ð£¬ÊµÏÖ²»Ö¸¶¨ÀàÐÍ£¬Ê¹ÓÃÊ±²»Ö¸¶¨ÀàÐÍ
-	//×ÓÀà´óÓÚµÈÓÚ¸¸Àà
-	//·ºÐÍÃ»ÓÐ¶àÌ¬
+	//å£°æ˜Žå­ç±»å…·ä½“ç±»åž‹
+	//å£°æ˜Žå­ç±»æ³›åž‹ç±»åž‹
+	//æ“¦å‡º  -->ç»§æ‰¿ï¼Œå®žçŽ°ä¸æŒ‡å®šç±»åž‹ï¼Œä½¿ç”¨æ—¶ä¸æŒ‡å®šç±»åž‹
+	//å­ç±»å¤§äºŽç­‰äºŽçˆ¶ç±»
+	//æ³›åž‹æ²¡æœ‰å¤šæ€
 	
 	
 }

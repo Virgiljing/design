@@ -2,7 +2,7 @@ package pattern2.command;
 
 public interface Command {
 	/**
-	 * 项目中可一根据需求设计不同的方法
+	 * 椤圭洰涓彲涓�鏍规嵁闇�姹傝璁′笉鍚岀殑鏂规硶
 	 */
 	void execute();
 }

@@ -4,12 +4,12 @@ import java.util.HashSet;
 import java.util.Iterator;
 
 /**
- * @author ÕÅº½Ãú
+ * @author å¼ èˆªé“­
  *  
- *  |Set:ÔªËØÊÇÎŞĞò(´æÈëºÍÈ¡³öµÄË³Ğò²»Ò»¶¨Ò»ÖÂ)£¬ÔªËØ²»¿ÉÒÔÖØ¸´¡£
- *  	|--HashSet:µ×²ãÊı¾İ½á¹¹ÊÇHash±í
+ *  |Set:å…ƒç´ æ˜¯æ— åº(å­˜å…¥å’Œå–å‡ºçš„é¡ºåºä¸ä¸€å®šä¸€è‡´)ï¼Œå…ƒç´ ä¸å¯ä»¥é‡å¤ã€‚
+ *  	|--HashSet:åº•å±‚æ•°æ®ç»“æ„æ˜¯Hashè¡¨
  *  	|--TreeSet:
- *  Set¼¯ºÏµÄ¹¦ÄÜºÍCollectionÊÇÒ»Ö±µÄ¡£
+ *  Seté›†åˆçš„åŠŸèƒ½å’ŒCollectionæ˜¯ä¸€ç›´çš„ã€‚
  */
 public class SetDemo {
 	public static void main(String[] args) {

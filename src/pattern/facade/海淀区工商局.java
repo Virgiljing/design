@@ -1,9 +1,9 @@
 package pattern.facade;
 
-public class 海淀区工商局 implements 工商局 {
+public class 娴锋穩鍖哄伐鍟嗗眬 implements 宸ュ晢灞� {
 
 	@Override
 	public void checkName() {
-		System.out.println("检查名字是否有冲突");
+		System.out.println("妫�鏌ュ悕瀛楁槸鍚︽湁鍐茬獊");
 	}
 }

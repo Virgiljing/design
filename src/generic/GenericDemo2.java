@@ -8,13 +8,13 @@ import java.util.TreeSet;
 import org.junit.Test;
 
 /**
- * @author ÕÅº½Ãú
+ * @author å¼ èˆªé“­
  * 
- * ? Í¨Åä·û¡£Ò²¿ÉÒÔÀí½âÎªÕ¼Î»·û¡£ÉúÃüÔÚÀàÐÍ·½·¨ÉÏ²»ÄÜÉùÃ÷ÔÚÀàÉÏ
- * ±íÊ¾ÀàÐÍ²»¶¨Ê¹ÓÃÊ±È·¶¨
- * ·ºÐÍÏÞ¶¨£º
- * ? extends E:¿ÉÒÔ½ÓÊÜEÀàÐÍ»òÕßEµÄ×ÓÀàÐÍ£ºÉÏÏß
- * ? super E  :¿ÉÒÔ½ÓÊÜEÀàÐÍ»òÕßEµÄ¸¸ÀàÐÍ£ºÏÂÏß
+ * ? é€šé…ç¬¦ã€‚ä¹Ÿå¯ä»¥ç†è§£ä¸ºå ä½ç¬¦ã€‚ç”Ÿå‘½åœ¨ç±»åž‹æ–¹æ³•ä¸Šä¸èƒ½å£°æ˜Žåœ¨ç±»ä¸Š
+ * è¡¨ç¤ºç±»åž‹ä¸å®šä½¿ç”¨æ—¶ç¡®å®š
+ * æ³›åž‹é™å®šï¼š
+ * ? extends E:å¯ä»¥æŽ¥å—Eç±»åž‹æˆ–è€…Eçš„å­ç±»åž‹ï¼šä¸Šçº¿
+ * ? super E  :å¯ä»¥æŽ¥å—Eç±»åž‹æˆ–è€…Eçš„çˆ¶ç±»åž‹ï¼šä¸‹çº¿
  *
  */
 public class GenericDemo2 {

@@ -9,19 +9,19 @@ public class ServerSockets {
 	public void setUpServer(int port) {
 		try {
 			server = new ServerSocket(port);
-			System.out.println("ÒÑ´´½¨·şÎñÆ÷"+port);
+			System.out.println("å·²åˆ›å»ºæœåŠ¡å™¨"+port);
 			Socket client = server.accept();
 			OutputStream out =client.getOutputStream();
 			InputStream in = client.getInputStream();
-			out.write("»¶Ó­À´µ½ÁÄÌìÊÒ\r\n".getBytes());
-			out.write("ÊäÈëquitÍË³ö\r\n".getBytes());
+			out.write("æ¬¢è¿æ¥åˆ°èŠå¤©å®¤\r\n".getBytes());
+			out.write("è¾“å…¥quité€€å‡º\r\n".getBytes());
 			String s = new String();
 			while (true) {
 			char ch = (char) in.read();
 			System.out.println();
-			System.out.print("ÓÃ»§ÊäÈë£º" + ch);
+			System.out.print("ç”¨æˆ·è¾“å…¥ï¼š" + ch);
 			if (ch == '\n') {
-			out.write(("·şÎñÆ÷ÊÕµ½:\r" + s).getBytes());
+			out.write(("æœåŠ¡å™¨æ”¶åˆ°:\r" + s).getBytes());
 			out.write("\r\n".getBytes());
 			s = new String();
 			}

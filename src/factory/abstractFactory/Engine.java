@@ -9,12 +9,12 @@ class LowEngine implements Engine{
 
 	@Override
 	public void run() {
-		System.out.println("ÅÜµÄÂı");
+		System.out.println("è·‘çš„æ…¢");
 	}
 
 	@Override
 	public void start() {
-		System.out.println("Æô¶¯Âı");
+		System.out.println("å¯åŠ¨æ…¢");
 	}
 	
 }
@@ -22,12 +22,12 @@ class LuxuryEngine implements Engine{
 	
 	@Override
 	public void run() {
-		System.out.println("ÅÜµÄ¿ì");
+		System.out.println("è·‘çš„å¿«");
 	}
 	
 	@Override
 	public void start() {
-		System.out.println("Æô¶¯¿ì");
+		System.out.println("å¯åŠ¨å¿«");
 	}
 	
 }

@@ -1,13 +1,13 @@
 package pattern2.command;
 
 public class Invoke {
-	private Command command;//Ò²¿ÉÒÔÍ¨¹ıÈİÆ÷List<Command> ÈİÄÉºÜ¶àÃüÁî£¬½øĞĞÅú´¦Àí£¬Êı¾İ¿âµ×²ãµÄÊÂÎñ¹ÜÀí¾ÍÊÇÀàËÆµÄ½á¹¹
+	private Command command;//ä¹Ÿå¯ä»¥é€šè¿‡å®¹å™¨List<Command> å®¹çº³å¾ˆå¤šå‘½ä»¤ï¼Œè¿›è¡Œæ‰¹å¤„ç†ï¼Œæ•°æ®åº“åº•å±‚çš„äº‹åŠ¡ç®¡ç†å°±æ˜¯ç±»ä¼¼çš„ç»“æ„
 	public Invoke(Command command) {
 		super();
 		this.command = command;
 	}
 	/**
-	 * ÕæÕıÃüÁîÖ´ĞĞÇ°»òÖ´ĞĞºó×ö³öÏàÓ¦²Ù×÷
+	 * çœŸæ­£å‘½ä»¤æ‰§è¡Œå‰æˆ–æ‰§è¡Œååšå‡ºç›¸åº”æ“ä½œ
 	 */
 	public void call() {
 		command.execute();

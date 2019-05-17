@@ -1,12 +1,12 @@
 package daliyPractice;
 
 /**
- * @author ÕÅº½Ãú
- * ¿É±ä²ÎÊý¡£
- * ÆäÊµ¾ÍÊÇÒ»ÖÖÊý×é²ÎÊýµÄ¼òÐ´ÐÎÊ½¡£
- * ²»ÓÃÃ¿Ò»´Î¶¼½¨Á¢Êý×é¶ÔÏó¡£
+ * @author å¼ èˆªé“­
+ * å¯å˜å‚æ•°ã€‚
+ * å…¶å®žå°±æ˜¯ä¸€ç§æ•°ç»„å‚æ•°çš„ç®€å†™å½¢å¼ã€‚
+ * ä¸ç”¨æ¯ä¸€æ¬¡éƒ½å»ºç«‹æ•°ç»„å¯¹è±¡ã€‚
  * 
- * ¿É±ä²ÎÊýÒ»¶¨¶¨ÒåÔÚ²ÎÊýÁÐ±íµÄ×îºó±ß¡£
+ * å¯å˜å‚æ•°ä¸€å®šå®šä¹‰åœ¨å‚æ•°åˆ—è¡¨çš„æœ€åŽè¾¹ã€‚
  */
 public class Variable_parameter {
 	public static void main(String[] args) {

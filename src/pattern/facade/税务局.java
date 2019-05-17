@@ -1,6 +1,6 @@
 package pattern.facade;
 
-public interface Ë°Îñ¾Ö {
+public interface ç¨ŽåŠ¡å±€ {
 
 	void taxCertificate();
 

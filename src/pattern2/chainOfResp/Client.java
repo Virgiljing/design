@@ -1,22 +1,22 @@
 package pattern2.chainOfResp;
 
 /**
- * @author ÕÅº½Ãú
- * ÔğÈÎÁ´
- * JavaÖĞÒì³£´¦Àí
- * JavaScriptÊÂ¼şµÄÃ°ÅİºÍ²¶»ñ£¬JavaÖĞÊÂ¼şµÄ´¦Àí²ÉÓÃµÄÊÇ¹Ü²Á×ÅÄ£Ê½
- * Servlet¿ª·¢ÖĞ£¬¹ıÂËÆ÷µÄÁ´Ê½´¦Àí
- * Struts2ÖĞ£¬À¹½ØÆ÷µÄµôÓÃÒ²ÊÇµäĞÍµÄÔğÈÎÁ´Ä£Ê½
+ * @author å¼ èˆªé“­
+ * è´£ä»»é“¾
+ * Javaä¸­å¼‚å¸¸å¤„ç†
+ * JavaScriptäº‹ä»¶çš„å†’æ³¡å’Œæ•è·ï¼ŒJavaä¸­äº‹ä»¶çš„å¤„ç†é‡‡ç”¨çš„æ˜¯ç®¡æ“¦ç€æ¨¡å¼
+ * Servletå¼€å‘ä¸­ï¼Œè¿‡æ»¤å™¨çš„é“¾å¼å¤„ç†
+ * Struts2ä¸­ï¼Œæ‹¦æˆªå™¨çš„æ‰ç”¨ä¹Ÿæ˜¯å…¸å‹çš„è´£ä»»é“¾æ¨¡å¼
  *
  */
 public class Client {
 	public static void main(String[] args) {
-		Leader a = new Director("ÕÅÈı");
-		Leader b = new Manager("ÀîËÄ");
-		Leader c = new GeneralManager("ÍõÎå");
+		Leader a = new Director("å¼ ä¸‰");
+		Leader b = new Manager("æå››");
+		Leader c = new GeneralManager("ç‹äº”");
 		a.setNextLeader(b);
 		b.setNextLeader(c);
-		LeaveRequest request = new LeaveRequest("ÕÔÁù", 20, "»ØÓ¢¹úÀÏ¼ÒÌ½Ç×");
+		LeaveRequest request = new LeaveRequest("èµµå…­", 20, "å›è‹±å›½è€å®¶æ¢äº²");
 		a.handlerRequest(request);
 	}
 }

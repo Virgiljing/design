@@ -1,10 +1,10 @@
 package pattern.facade;
 
-public class º£µíÖÊ¼ì¾Ö implements ÖÊ¼ì¾Ö {
+public class æµ·æ·€è´¨æ£€å±€ implements è´¨æ£€å±€ {
 
 	@Override
 	public void orgCodeCertificate() {
-		System.out.println("ÔÙº£µíÇøÖÊ¼ì¾Ö°ìÀí×éÖ¯»ú¹¹´úÂëÖ¤£¡");
+		System.out.println("å†æµ·æ·€åŒºè´¨æ£€å±€åŠžç†ç»„ç»‡æœºæž„ä»£ç è¯ï¼");
 	}
 
 }

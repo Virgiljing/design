@@ -1,9 +1,9 @@
 package factory.abstractFactory;
 
 /**
- * @author ÕÅº½Ãú
- *  ³éÏó¹¤³§Ä£Ê½
- *  ²»¿ÉÒÔÔö¼Ó²úÆ·£¬¿ÉÒÔÔö¼Ó²úÆ·×å
+ * @author å¼ èˆªé“­
+ *  æŠ½è±¡å·¥å‚æ¨¡å¼
+ *  ä¸å¯ä»¥å¢åŠ äº§å“ï¼Œå¯ä»¥å¢åŠ äº§å“æ—
  */
 public interface CarFactory {
 	Engine createEngine();

@@ -1,6 +1,6 @@
 package pattern.facade;
 
-public interface ¹¤ÉÌ¾Ö {
+public interface å·¥å•†å±€ {
 
 	void checkName();
 

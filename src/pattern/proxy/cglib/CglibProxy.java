@@ -1,14 +1,15 @@
 package pattern.proxy.cglib;
 
+
+import net.sf.cglib.proxy.Enhancer;
+import net.sf.cglib.proxy.MethodInterceptor;
+import net.sf.cglib.proxy.MethodProxy;
+
 import java.lang.reflect.Method;
 
-import org.springframework.cglib.proxy.Enhancer;
-import org.springframework.cglib.proxy.MethodInterceptor;
-import org.springframework.cglib.proxy.MethodProxy;
 
 
-
-public class CglibProxy implements MethodInterceptor{
+public class CglibProxy implements MethodInterceptor {
 	private Object obj;
 	public CglibProxy(Object obj) {
 		this.obj = obj;

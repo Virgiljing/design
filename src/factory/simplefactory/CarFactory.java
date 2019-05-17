@@ -1,16 +1,16 @@
 package factory.simplefactory;
 
 /**
- * @author ÕÅº½Ãú
- * ¼òµ¥¹¤³§Ä£Ê½
- * ÎŞ·¨Âú×ã¿ª±ÕÔ­Ôò
+ * @author å¼ èˆªé“­
+ * ç®€å•å·¥å‚æ¨¡å¼
+ * æ— æ³•æ»¡è¶³å¼€é—­åŸåˆ™
  *
  */
 public class CarFactory {
 	public static Car createCar(String type) {
-		if ("±¼³Û".equals(type)) {
+		if ("å¥”é©°".equals(type)) {
 			return new BenChi();
-		}else if ("±¦Âí".equals(type)) {
+		}else if ("å®é©¬".equals(type)) {
 			return new BaoMa();
 		}else {
 			return null;

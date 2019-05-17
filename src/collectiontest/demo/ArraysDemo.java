@@ -4,9 +4,9 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @author ÕÅº½Ãú
- * Arrays:ÓÃÓÚ²Ù×÷Êı×éµÄ¹¤¾ßÀà
- * asList:½«Êı×é±ä³ÉList¼¯ºÏ
+ * @author å¼ èˆªé“­
+ * Arrays:ç”¨äºæ“ä½œæ•°ç»„çš„å·¥å…·ç±»
+ * asList:å°†æ•°ç»„å˜æˆListé›†åˆ
  */
 public class ArraysDemo {
 	
@@ -15,17 +15,17 @@ public class ArraysDemo {
 		System.out.println(Arrays.toString(arr));
 		String[] arr2 = {"aba","cc","gbb"};
 		List<String> list = Arrays.asList(arr2);
-		//½«Êı×é±ä³É¼¯ºÏ²»¿ÉÒÔÊ¹ÓÃÔöÉ¾·½·¨
-		//ÒÔÎªÊı×éµÄ³¤¶ÈÊ±¹Ì¶¨µÄ
-		//Èç¹ûÔöÉ¾»á·¢ÉúUnsupportedOperationException
+		//å°†æ•°ç»„å˜æˆé›†åˆä¸å¯ä»¥ä½¿ç”¨å¢åˆ æ–¹æ³•
+		//ä»¥ä¸ºæ•°ç»„çš„é•¿åº¦æ—¶å›ºå®šçš„
+		//å¦‚æœå¢åˆ ä¼šå‘ç”ŸUnsupportedOperationException
 		//list.add("ss");
 		System.out.println("contains:"+list.contains("cc"));
 		System.out.println(list);
 		int[] nums = {1,2,3};
 		Integer[] nums2 = {1,2,3};
 		/*
-		 * Èç¹ûÊı×éÖĞµÄÔªËØ¶¼ÊÇ¶ÔÏóÄÇÃ´±ä³É¼¯ºÏ£¬Êı×éÖĞµÄÔªËØ±ä³ÉÖ±½Ó¼¯ºÏÖĞµÄÔªËØ
-		 * Èç¹ûÊı×éÖĞµÄÔªËØ¶¼ÊÇ»ù±¾Êı¾İÀàĞÍ£¬ÄÇÃ´½«¸ÃÊı×é×÷Îª¼¯ºÏÖĞµÄÔªËØ´æÔÚ¡£
+		 * å¦‚æœæ•°ç»„ä¸­çš„å…ƒç´ éƒ½æ˜¯å¯¹è±¡é‚£ä¹ˆå˜æˆé›†åˆï¼Œæ•°ç»„ä¸­çš„å…ƒç´ å˜æˆç›´æ¥é›†åˆä¸­çš„å…ƒç´ 
+		 * å¦‚æœæ•°ç»„ä¸­çš„å…ƒç´ éƒ½æ˜¯åŸºæœ¬æ•°æ®ç±»å‹ï¼Œé‚£ä¹ˆå°†è¯¥æ•°ç»„ä½œä¸ºé›†åˆä¸­çš„å…ƒç´ å­˜åœ¨ã€‚
 		 */
 		List<int[]> list2 = Arrays.asList(nums);
 		List<Integer> list3 = Arrays.asList(nums2);

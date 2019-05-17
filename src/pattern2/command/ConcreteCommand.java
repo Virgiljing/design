@@ -10,7 +10,7 @@ public class ConcreteCommand implements Command {
 
 	@Override
 	public void execute() {
-		//ÕæÕıÃüÁîÖ´ĞĞÇ°»òÖ´ĞĞºó×ö³öÏàÓ¦²Ù×÷
+		//çœŸæ­£å‘½ä»¤æ‰§è¡Œå‰æˆ–æ‰§è¡Œååšå‡ºç›¸åº”æ“ä½œ
 		receiver.action();
 	}
 

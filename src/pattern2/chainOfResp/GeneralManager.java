@@ -9,10 +9,10 @@ public class GeneralManager extends Leader {
 	@Override
 	public void handlerRequest(LeaveRequest request) {
 		if (request.getLeaveDays()<30) {
-			System.out.println("Ô±¹¤£º"+request.getEmpName()+"Çë¼Ù£¬ÌìÊý£º"+request.getLeaveDays()+"Ô­Òò£º"+request.getReason());
-			System.out.println("×Ü¾­Àí£º"+this.name+",ÉóÅúÍ¨¹ý");
+			System.out.println("å‘˜å·¥ï¼š"+request.getEmpName()+"è¯·å‡ï¼Œå¤©æ•°ï¼š"+request.getLeaveDays()+"åŽŸå› ï¼š"+request.getReason());
+			System.out.println("æ€»ç»ç†ï¼š"+this.name+",å®¡æ‰¹é€šè¿‡");
 		} else {
-			System.out.println("Äª·ÇÏë´ÇÖ°");
+			System.out.println("èŽ«éžæƒ³è¾žèŒ");
 		}
 	}
 

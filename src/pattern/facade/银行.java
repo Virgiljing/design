@@ -1,6 +1,6 @@
 package pattern.facade;
 
-public interface ÒøĞĞ {
+public interface é“¶è¡Œ {
 
 	void openAccount();
 

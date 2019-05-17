@@ -1,8 +1,8 @@
 package pattern2.chainOfResp;
 
 /**
- * @author ÕÅº½Ãú
- *	Ö÷ÈÎ
+ * @author å¼ èˆªé“­
+ *	ä¸»ä»»
  */
 public class Director extends Leader {
 
@@ -13,8 +13,8 @@ public class Director extends Leader {
 	@Override
 	public void handlerRequest(LeaveRequest request) {
 		if (request.getLeaveDays()<3) {
-			System.out.println("Ô±¹¤£º"+request.getEmpName()+"Çë¼Ù£¬ÌìÊý£º"+request.getLeaveDays()+"Ô­Òò£º"+request.getReason());
-			System.out.println("Ö÷ÈÎ£º"+this.name+",ÉóÅúÍ¨¹ý");
+			System.out.println("å‘˜å·¥ï¼š"+request.getEmpName()+"è¯·å‡ï¼Œå¤©æ•°ï¼š"+request.getLeaveDays()+"åŽŸå› ï¼š"+request.getReason());
+			System.out.println("ä¸»ä»»ï¼š"+this.name+",å®¡æ‰¹é€šè¿‡");
 		} else {
 			if (this.nextLeader!=null) {
 				this.nextLeader.handlerRequest(request);

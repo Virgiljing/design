@@ -5,32 +5,32 @@ import java.util.LinkedList;
 import org.junit.Test;
 
 /**
- * @author ÕÅº½Ãú
- * LinkedList:ÌØÓĞ·½·¨£º
+ * @author å¼ èˆªé“­
+ * LinkedList:ç‰¹æœ‰æ–¹æ³•ï¼š
  * addFirst();
  * addLast();
  * 
- * »ñÈ¡ÔªËØ
- * Èç¹û¼¯ºÏÖĞÃ»ÓĞÔªËØ¾Í»á³öÏÖNoSuchElementException 
+ * è·å–å…ƒç´ 
+ * å¦‚æœé›†åˆä¸­æ²¡æœ‰å…ƒç´ å°±ä¼šå‡ºç°NoSuchElementException 
  * getFirst();
  * getLast();
  * 
- * »ñÈ¡ÔªËØ²¢É¾³ı
- * Èç¹û¼¯ºÏÖĞÃ»ÓĞÔªËØ¾Í»á³öÏÖNoSuchElementException 
+ * è·å–å…ƒç´ å¹¶åˆ é™¤
+ * å¦‚æœé›†åˆä¸­æ²¡æœ‰å…ƒç´ å°±ä¼šå‡ºç°NoSuchElementException 
  * removeFirst();
  * removeLast();
  * 
- * ÔÚJDK1.6³öÏÖÌæ´ú·½·¨
+ * åœ¨JDK1.6å‡ºç°æ›¿ä»£æ–¹æ³•
  * 
  * offerFirst();
  * offerLast();
  * 
- * »ñÈ¡ÔªËØµ«²»É¾³ıÔªËØ¡£Èç¹û¼¯ºÏÖĞÃ»ÓĞÔªËØ»á·µ»Ønull
+ * è·å–å…ƒç´ ä½†ä¸åˆ é™¤å…ƒç´ ã€‚å¦‚æœé›†åˆä¸­æ²¡æœ‰å…ƒç´ ä¼šè¿”å›null
  * peekFirst();
  * peekLast();
  * 
  * 
- * »ñÈ¡ÔªËØ²¢É¾³ıÔªËØ¡£Èç¹û¼¯ºÏÖĞÃ»ÓĞÔªËØ»á·µ»Ønull
+ * è·å–å…ƒç´ å¹¶åˆ é™¤å…ƒç´ ã€‚å¦‚æœé›†åˆä¸­æ²¡æœ‰å…ƒç´ ä¼šè¿”å›null
  * pollFirst();
  * pollLast();
  * 
@@ -53,10 +53,10 @@ public class LinkedListDemo {
 		}
 	}
 	/**
-	 * Ê¹ÓÃLinkedList Ä£ÄâÒ»¸ö¶ÑÕ»»òÕß¶ÓÁĞÊı¾İ½á¹¹¡£
+	 * ä½¿ç”¨LinkedList æ¨¡æ‹Ÿä¸€ä¸ªå †æ ˆæˆ–è€…é˜Ÿåˆ—æ•°æ®ç»“æ„ã€‚
 	 * 
-	 * ¶ÑÕ»£ºÏÈ½øºó³ö
-	 * ¶ÓÁĞ£ºÏÈ½øÏÈ³ö
+	 * å †æ ˆï¼šå…ˆè¿›åå‡º
+	 * é˜Ÿåˆ—ï¼šå…ˆè¿›å…ˆå‡º
 	 */
 	@Test
 	public void test() {

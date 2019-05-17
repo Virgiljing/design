@@ -1,8 +1,8 @@
 package pattern2.command;
 
 /**
- * @author ÕÅº½Ãú
- * ÕæÕıµÄÃüÁîÖ´ĞĞÕß
+ * @author å¼ èˆªé“­
+ * çœŸæ­£çš„å‘½ä»¤æ‰§è¡Œè€…
  */
 public class Receiver {
 	public void action() {

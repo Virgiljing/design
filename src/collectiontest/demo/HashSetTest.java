@@ -5,17 +5,17 @@ import java.util.Iterator;
 import java.util.Set;
 
 /**
- * @author ÕÅº½Ãú
+ * @author å¼ èˆªé“­
  *  
- *  |Set:ÔªËØÊÇÎŞĞò(´æÈëºÍÈ¡³öµÄË³Ğò²»Ò»¶¨Ò»ÖÂ)£¬ÔªËØ²»¿ÉÒÔÖØ¸´¡£
- *  	|--HashSet:µ×²ãÊı¾İ½á¹¹ÊÇHash±í
- *  	         ÊÇÍ¨¹ıÔªËØµÄÁ½¸ö·½·¨£¬hashCodeºÍequalsÀ´Íê³É¡£
- *  	         Èç¹ûÔªËØµÄHashCodeÖµÏàÍ¬£¬²Å»áÅĞ¶ÏequalsÊÇ·ñÎªtrue¡£
- *         Èç¹ûÔªËØµÄhashCodeÖµ²»Í¬£¬²»»áµ÷ÓÃequals¡£       
+ *  |Set:å…ƒç´ æ˜¯æ— åº(å­˜å…¥å’Œå–å‡ºçš„é¡ºåºä¸ä¸€å®šä¸€è‡´)ï¼Œå…ƒç´ ä¸å¯ä»¥é‡å¤ã€‚
+ *  	|--HashSet:åº•å±‚æ•°æ®ç»“æ„æ˜¯Hashè¡¨
+ *  	         æ˜¯é€šè¿‡å…ƒç´ çš„ä¸¤ä¸ªæ–¹æ³•ï¼ŒhashCodeå’Œequalsæ¥å®Œæˆã€‚
+ *  	         å¦‚æœå…ƒç´ çš„HashCodeå€¼ç›¸åŒï¼Œæ‰ä¼šåˆ¤æ–­equalsæ˜¯å¦ä¸ºtrueã€‚
+ *         å¦‚æœå…ƒç´ çš„hashCodeå€¼ä¸åŒï¼Œä¸ä¼šè°ƒç”¨equalsã€‚       
  *         
- *         ×¢Òâ£¬¶ÔÓÚÅĞ¶ÏÔªËØÊÇ·ñ´æÔÚ£¬Ò»¼¶É¾³ıµÈ²Ù×÷£¬ÒÀÀµµÄ·½·¨ÊÇÔªËØµÄhashCodeºÍequals·½·¨¡£
+ *         æ³¨æ„ï¼Œå¯¹äºåˆ¤æ–­å…ƒç´ æ˜¯å¦å­˜åœ¨ï¼Œä¸€çº§åˆ é™¤ç­‰æ“ä½œï¼Œä¾èµ–çš„æ–¹æ³•æ˜¯å…ƒç´ çš„hashCodeå’Œequalsæ–¹æ³•ã€‚
  *  	|--TreeSet:
- *  Set¼¯ºÏµÄ¹¦ÄÜºÍCollectionÊÇÒ»Ö±µÄ¡£
+ *  Seté›†åˆçš„åŠŸèƒ½å’ŒCollectionæ˜¯ä¸€ç›´çš„ã€‚
  */
 public class HashSetTest{
 	public static void main(String[] args) {
@@ -43,7 +43,7 @@ class Student{
 	private int age;
 	@Override
 	public int hashCode() {
-		System.out.println(this.name+"¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ªhashCode");
+		System.out.println(this.name+"â€”â€”â€”â€”â€”â€”â€”â€”hashCode");
 		return name.hashCode()+age*39;
 	}
 	@Override

@@ -5,20 +5,20 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author ÕÅº½Ãú
- *	Map¼¯ºÏ£º¸Ã¼¯ºÏ´æ´¢¼üÖµ¶Ô¡£Òª±£Ö¤¼üµÄÎ¨Ò»ĞÔ
- *  1.Ìí¼Ó
+ * @author å¼ èˆªé“­
+ *	Mapé›†åˆï¼šè¯¥é›†åˆå­˜å‚¨é”®å€¼å¯¹ã€‚è¦ä¿è¯é”®çš„å”¯ä¸€æ€§
+ *  1.æ·»åŠ 
  *      put(K key,V value)
  *      putAll(Map<? extends K,? extends V> m)
- *  2.É¾³ı
+ *  2.åˆ é™¤
  *      clear();
  *      remove(Object key)
- *  3.ÅĞ¶Ï
+ *  3.åˆ¤æ–­
  *      containsValue(Object value)
  *      containsKey(Object key)
  *      isEmpty()
  *      
- *  4.»ñÈ¡
+ *  4.è·å–
  *      get(Object key)
  *      size()
  *      values()
@@ -27,16 +27,16 @@ import java.util.Map;
  *      keySet()
  *      
  * Map
- *     |--Hashtable:µ×²ãÊÇ¹şÏ£±íÊı¾İ½á¹¹£¬²»¿ÉÒÔ´æÈënull¼ünullÖµ¡£¸Ã¼¯ºÏÊÇÏß³ÌÍ¬²½µÄ¡£jdk1.0Ğ§ÂÊµÍ
- *     |--HashMap:µ×²ãÊÇ¹şÏ£±íÊı¾İ½á¹¹£¬ÔÊĞíÊ¹ÓÃnull¼ünullÖµ£¬¸Ã¼¯ºÏÊÇ²»Í¬²½µÄ¡£jdk1.2Ğ§ÂÊ¸ß
- *     |--TreeMap:µ×²ãÊÇ¶ş²æÊ÷Êı¾İ½á¹¹¡£Ïß³Ì²»Í¬²½£¬¿ÉÒÔÓÃÓÚ¸øMap¼¯ºÏÖĞµÄ¼ü½øĞĞÅÅĞò
- * ºÍSetºÜÏë
- * Setµ×²ã¾ÍÊÇÊ¹ÓÃMap¼¯ºÏ¡£
+ *     |--Hashtable:åº•å±‚æ˜¯å“ˆå¸Œè¡¨æ•°æ®ç»“æ„ï¼Œä¸å¯ä»¥å­˜å…¥nullé”®nullå€¼ã€‚è¯¥é›†åˆæ˜¯çº¿ç¨‹åŒæ­¥çš„ã€‚jdk1.0æ•ˆç‡ä½
+ *     |--HashMap:åº•å±‚æ˜¯å“ˆå¸Œè¡¨æ•°æ®ç»“æ„ï¼Œå…è®¸ä½¿ç”¨nullé”®nullå€¼ï¼Œè¯¥é›†åˆæ˜¯ä¸åŒæ­¥çš„ã€‚jdk1.2æ•ˆç‡é«˜
+ *     |--TreeMap:åº•å±‚æ˜¯äºŒå‰æ ‘æ•°æ®ç»“æ„ã€‚çº¿ç¨‹ä¸åŒæ­¥ï¼Œå¯ä»¥ç”¨äºç»™Mapé›†åˆä¸­çš„é”®è¿›è¡Œæ’åº
+ * å’ŒSetå¾ˆæƒ³
+ * Setåº•å±‚å°±æ˜¯ä½¿ç”¨Mapé›†åˆã€‚
  */
 public class MapDemo {
 	public static void main(String[] args) {
 		Map<String , String> map = new HashMap<>();
-		//Ìí¼ÓÔªËØ£¬Èç¹û³öÏÖÌí¼ÓÊ±£¬ÏàÍ¬µÄ¼ü£¬ÄÇÃ´ºóÌí¼ÓµÄÖµ»á¸²¸ÇÔ­ÓĞ¼ü¶ÔÓ¦µÄÖµ¡£²¢put()·½·¨·µ»Ø±»¸²¸ÇµÄÖµ
+		//æ·»åŠ å…ƒç´ ï¼Œå¦‚æœå‡ºç°æ·»åŠ æ—¶ï¼Œç›¸åŒçš„é”®ï¼Œé‚£ä¹ˆåæ·»åŠ çš„å€¼ä¼šè¦†ç›–åŸæœ‰é”®å¯¹åº”çš„å€¼ã€‚å¹¶put()æ–¹æ³•è¿”å›è¢«è¦†ç›–çš„å€¼
 		System.out.println(map.put("01", "zhangsan1"));
 		System.out.println(map.put("01", "lisi"));
 		map.put("02", "zhangsan2");
@@ -47,7 +47,7 @@ public class MapDemo {
 		map.put(null, "zhang");
 		System.out.println(map);
 		System.out.println("-------------");
-		//»ñÈ¡Map¼¯ºÏÖĞµÄËùÓĞµÄÖµ¡£
+		//è·å–Mapé›†åˆä¸­çš„æ‰€æœ‰çš„å€¼ã€‚
 		Collection<String> values = map.values();
 		System.out.println(values);
 	}

@@ -1,8 +1,8 @@
 package factory.factorymethod;
 
 /**
- * @author ÕÅº½Ãú
- * ¹¤³§·½·¨Ä£Ê½
+ * @author å¼ èˆªé“­
+ * å·¥å‚æ–¹æ³•æ¨¡å¼
  *
  */
 public class BenChiFactory implements CarFactory{

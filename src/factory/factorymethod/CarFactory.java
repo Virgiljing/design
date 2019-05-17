@@ -1,9 +1,9 @@
 package factory.factorymethod;
 
 /**
- * @author ÕÅº½Ãú
- * ¼òµ¥¹¤³§Ä£Ê½
- * ÎŞ·¨Âú×ã¿ª±ÕÔ­Ôò
+ * @author å¼ èˆªé“­
+ * ç®€å•å·¥å‚æ¨¡å¼
+ * æ— æ³•æ»¡è¶³å¼€é—­åŸåˆ™
  *
  */
 public interface CarFactory {
