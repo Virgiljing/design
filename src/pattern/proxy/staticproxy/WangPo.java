@@ -6,7 +6,7 @@ public class WangPo implements IKindWomen {
 		this.women = women;
 	}
 	public void openHouse() {
-		System.out.println("将两人约到已�?好的房间");
+		System.out.println("将两人约到已开好的房间");
 	}
 	@Override
 	public void happyWithMan() {
@@ -15,11 +15,11 @@ public class WangPo implements IKindWomen {
 		clear();
 	}
 	private void clear() {
-		System.out.println("打扫战场。�?��??");
+		System.out.println("打扫战场。。。");
 	}
 	@Override
 	public double collect(double money) {
-		System.out.println("王婆收取中介�?"+money*0.3);
+		System.out.println("王婆收取中介费"+money*0.3);
 		women.collect(money*0.7);
 		return money*0.7;
 	}

@@ -16,7 +16,7 @@ public class Client {
 		Leader c = new GeneralManager("王五");
 		a.setNextLeader(b);
 		b.setNextLeader(c);
-		LeaveRequest request = new LeaveRequest("赵六", 20, "回英国老家探亲");
+		LeaveRequest request = new LeaveRequest("赵六", 11, "回英国老家探亲");
 		a.handlerRequest(request);
 	}
 }

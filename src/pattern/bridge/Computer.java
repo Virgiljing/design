@@ -8,7 +8,7 @@ class Laptop implements Computer{
 
 	@Override
 	public void sale() {
-		System.out.println("ÏúÊÛ±Ê¼Ç±¾");
+		System.out.println("é”€å”®ç¬”è®°æœ¬");
 	}
 	
 }
@@ -16,7 +16,7 @@ class Desktop implements Computer{
 	
 	@Override
 	public void sale() {
-		System.out.println("ÏúÊÛÌ¨Ê½»ú");
+		System.out.println("é”€å”®å°å¼æœº");
 	}
 	
 }
@@ -24,43 +24,43 @@ class Pad implements Computer{
 	
 	@Override
 	public void sale() {
-		System.out.println("ÏúÊÛÆ½°åµçÄÔ");
+		System.out.println("é”€å”®å¹³æ¿ç”µè„‘");
 	}
 	
 }
 class ShenZhouLaptop extends Laptop{
 	@Override
 	public void sale() {
-		System.out.println("ÏúÊÛÉñÖİ±Ê¼Ç±¾");
+		System.out.println("é”€å”®ç¥å·ç¬”è®°æœ¬");
 	}
 }
 class ShenZhouDesktop extends Laptop{
 	@Override
 	public void sale() {
-		System.out.println("ÏúÊÛÉñÖİÌ¨Ê½»ú");
+		System.out.println("é”€å”®ç¥å·å°å¼æœº");
 	}
 }
 class ShenZhouLapPad extends Laptop{
 	@Override
 	public void sale() {
-		System.out.println("ÏúÊÛÉñÖİÆ½°å");
+		System.out.println("é”€å”®ç¥å·å¹³æ¿");
 	}
 }
 class DellLaptop extends Laptop{
 	@Override
 	public void sale() {
-		System.out.println("ÏúÊÛDell±Ê¼Ç±¾");
+		System.out.println("é”€å”®Dellç¬”è®°æœ¬");
 	}
 }
 class DellDesktop extends Laptop{
 	@Override
 	public void sale() {
-		System.out.println("ÏúÊÛDellÌ¨Ê½»ú");
+		System.out.println("é”€å”®Dellå°å¼æœº");
 	}
 }
 class DellLapPad extends Laptop{
 	@Override
 	public void sale() {
-		System.out.println("ÏúÊÛDellÆ½°å");
+		System.out.println("é”€å”®Dellå¹³æ¿");
 	}
 }

@@ -1,13 +1,13 @@
 package pattern2.state;
 
 /**
- * @author ÕÅº½Ãú
- *  ×´Ì¬Ä£Ê½
+ * @author å¼ èˆªé“­
+ *  çŠ¶æ€æ¨¡å¼
  */
 public class FreeState implements State{
 
 	@Override
 	public void handle() {
-		System.out.println("·¿¼äÒÑ×¡£¡£¡£¡ÇëÎğ´òÈÅ£¡£¡£¡");
+		System.out.println("æˆ¿é—´å·²ä½ï¼ï¼ï¼è¯·å‹¿æ‰“æ‰°ï¼ï¼ï¼");
 	}
 }

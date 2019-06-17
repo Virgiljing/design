@@ -4,8 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author ÕÅº½Ãú
- * ÏíÔª¹¤³§
+ * @author å¼ èˆªé“­
+ * äº«å…ƒå·¥å‚
  *
  */
 public class ChessFlyWeightFactory {

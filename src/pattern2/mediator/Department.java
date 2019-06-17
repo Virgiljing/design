@@ -1,8 +1,8 @@
 package pattern2.mediator;
 
 /**
- * @author ÕÅº½Ãú
- *	Í¬Ê±Àà½Ó¿Ú
+ * @author å¼ èˆªé“­
+ *	åŒæ—¶ç±»æ¥å£
  */
 public interface Department {
 	void selfAction();

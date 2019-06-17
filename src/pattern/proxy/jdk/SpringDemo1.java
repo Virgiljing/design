@@ -7,9 +7,9 @@ public class SpringDemo1 {
 	public void demo1() {
 		CustomerDao customerDao = new CustomerDaoImpl();
 		CustomerDao proxy = (CustomerDao) new JdkProxy(customerDao).createProxy();
-		proxy.save();
-		proxy.find();
-		proxy.delete();
+//		proxy.save();
+//		proxy.find();
+//		proxy.delete();
 		proxy.update();
 	}
 }

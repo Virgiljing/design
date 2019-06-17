@@ -25,7 +25,7 @@ public class Client {
 					return null;
 				}else if (name.equals("collect")) {
 					double money = (double)args[0];
-					System.out.println("平台收取中介�?"+money*0.3);
+					System.out.println("平台收取中介费"+money*0.3);
 					method.invoke(women, money*0.7);
 					return money*0.3;
 				}else {
@@ -35,10 +35,10 @@ public class Client {
 				
 			}
 			private void clear() {
-				System.out.println("打扫战场。�?��?��??");
+				System.out.println("打扫战场。");
 			}
 		});
-		//proxy.happyWithMan();
+		proxy.happyWithMan();
 		double collect = proxy.collect(500);
 		System.out.println(collect);
 		System.out.println(proxy.toString());

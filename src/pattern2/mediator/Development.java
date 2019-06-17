@@ -10,12 +10,12 @@ public class Development implements Department {
 
 	@Override
 	public void selfAction() {
-		System.out.println("×¨ĞÄ¿ÆÑĞ£¬¿ª·¢ÏîÄ¿");
+		System.out.println("ä¸“å¿ƒç§‘ç ”ï¼Œå¼€å‘é¡¹ç›®");
 	}
 
 	@Override
 	public void outAction() {
-		System.out.println("»ã±¨¹¤×÷£¡Ã»Ç®ÁË£¬ĞèÒª×Ê½ğÖ§³Ö");
+		System.out.println("æ±‡æŠ¥å·¥ä½œï¼æ²¡é’±äº†ï¼Œéœ€è¦èµ„é‡‘æ”¯æŒ");
 	}
 	
 }

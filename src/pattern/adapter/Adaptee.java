@@ -1,11 +1,11 @@
 package pattern.adapter;
 
 /**
- * @author ÕÅº½Ãú
- *	±»ÊÊÅäµÄÀà
+ * @author å¼ èˆªé“­
+ *	è¢«é€‚é…çš„ç±»
  */
 public class Adaptee {
 	public void request() {
-		System.out.println("¿ÉÒÔÍê³ÉÓÃ»§ĞèÒªµÄ¹¦ÄÜ");
+		System.out.println("å¯ä»¥å®Œæˆç”¨æˆ·éœ€è¦çš„åŠŸèƒ½");
 	}
 }

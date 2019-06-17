@@ -1,8 +1,8 @@
 package pattern.flyweight;
 
 /**
- * @author ÕÅº½Ãú
- * ÏíÔªÀà
+ * @author å¼ èˆªé“­
+ * äº«å…ƒç±»
  *
  */
 public interface ChessFlyWeight {
@@ -31,8 +31,8 @@ class ConcreteChess implements ChessFlyWeight{
 
 	@Override
 	public void display(Coordinate c) {
-		System.out.println("Æå×ÓÑÕÉ«"+color);
-		System.out.println("Æå×ÓÎ»ÖÃ"+c.getX()+"-------"+c.getY());
+		System.out.println("æ£‹å­é¢œè‰²"+color);
+		System.out.println("æ£‹å­ä½ç½®"+c.getX()+"-------"+c.getY());
 	}
 	
 	

@@ -1,10 +1,10 @@
 package pattern2.mediator;
 
 /**
- * @author ÕÅº½Ãú
- * ÖĞ½éÕßÄ£Ê½
- * -½âñî¶à¸öÍ¬ÊÂ¶ÔÏóÖ®¼äµÄ½»»¥¹ØÏµ£¬Ã¿¸ö¶ÔÏó¶¼³ÖÓĞÖĞ½éÕß¶ÔÏóµÄÒıÓÃ
- *  Ö»¸úÖĞ½éÕß´ò½»µÀ¡£ÎÒÃÇÍ¨¹ıÖĞ½éÕß¶ÔÏóÍ³Ò»¹ÜÀíÕâĞ©½»»¥ÕßµÄ¹ØÏµ
+ * @author å¼ èˆªé“­
+ * ä¸­ä»‹è€…æ¨¡å¼
+ * -è§£è€¦å¤šä¸ªåŒäº‹å¯¹è±¡ä¹‹é—´çš„äº¤äº’å…³ç³»ï¼Œæ¯ä¸ªå¯¹è±¡éƒ½æŒæœ‰ä¸­ä»‹è€…å¯¹è±¡çš„å¼•ç”¨
+ *  åªè·Ÿä¸­ä»‹è€…æ‰“äº¤é“ã€‚æˆ‘ä»¬é€šè¿‡ä¸­ä»‹è€…å¯¹è±¡ç»Ÿä¸€ç®¡ç†è¿™äº›äº¤äº’è€…çš„å…³ç³»
  *
  */
 public class Client {
@@ -15,6 +15,12 @@ public class Client {
 		Finacial finacial = new Finacial(m);
 		market.selfAction();
 		market.outAction();
+
+		development.selfAction();
+		development.outAction();
+
+		finacial.selfAction();
+		finacial.outAction();
 		
 	}
 }

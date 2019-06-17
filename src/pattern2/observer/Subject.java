@@ -12,7 +12,7 @@ public class Subject {
 		list.remove(obs);
 	}
 	/**
-	 * ֪ͨ���й۲��߸���״̬
+	 * 通知所有观察者更新状态
 	 */
 	public void notifyAllObservers() {
 		for (Observer observer : list) {

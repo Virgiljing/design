@@ -1,13 +1,13 @@
 package pattern2.state;
 
 /**
- * @author ÕÅº½Ãú
- *  ×´Ì¬Ä£Ê½
+ * @author å¼ èˆªé“­
+ *  çŠ¶æ€æ¨¡å¼
  */
 public class CheckedState implements State{
 
 	@Override
 	public void handle() {
-		System.out.println("·¿¼äÒÑÔ¤¶¨£¡£¡£¡");
+		System.out.println("æˆ¿é—´å·²é¢„å®šï¼ï¼ï¼");
 	}
 }

@@ -4,7 +4,7 @@ public class NewCustomerFewStrategy implements Strategy {
 
 	@Override
 	public double getPrice(double standardPrice) {
-		System.out.println("不打折，原价");
+		System.out.println("涓嶆墦鎶橈紝鍘熶环");
 		return standardPrice;
 	}
 	

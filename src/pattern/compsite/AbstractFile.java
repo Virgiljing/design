@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * ³éÏó¹¹½¨
+ * æŠ½è±¡æ„å»º
  */
 public interface AbstractFile {
-	void killVirus();//É±¶¾
+	void killVirus();//æ€æ¯’
 }
 class ImageFile implements AbstractFile{
 	private String name ;
@@ -17,7 +17,7 @@ class ImageFile implements AbstractFile{
 	}
 	@Override
 	public void killVirus() {
-		System.out.println("---Í¼ÏñÎÄ¼ş"+name+",½øĞĞ²éÉ±£¡");
+		System.out.println("---å›¾åƒæ–‡ä»¶"+name+",è¿›è¡ŒæŸ¥æ€ï¼");
 	}
 	
 }
@@ -29,7 +29,7 @@ class TextFile implements AbstractFile{
 	}
 	@Override
 	public void killVirus() {
-		System.out.println("---ÎÄ±¾ÎÄ¼ş"+name+",½øĞĞ²éÉ±£¡");
+		System.out.println("---æ–‡æœ¬æ–‡ä»¶"+name+",è¿›è¡ŒæŸ¥æ€ï¼");
 	}
 	
 }
@@ -41,7 +41,7 @@ class VideoFile implements AbstractFile{
 	}
 	@Override
 	public void killVirus() {
-		System.out.println("---ÎÄ±¾ÎÄ¼ş"+name+",½øĞĞ²éÉ±£¡");
+		System.out.println("---æ–‡æœ¬æ–‡ä»¶"+name+",è¿›è¡ŒæŸ¥æ€ï¼");
 	}
 	
 }
@@ -65,7 +65,7 @@ class Folder implements AbstractFile{
 	}
 	@Override
 	public void killVirus() {
-		System.out.println("-----ÎÄ¼ş¼Ğ"+name+",½øĞĞÉ±¶¾");
+		System.out.println("-----æ–‡ä»¶å¤¹"+name+",è¿›è¡Œæ€æ¯’");
 		for (AbstractFile file : list) {
 			file.killVirus();
 		}

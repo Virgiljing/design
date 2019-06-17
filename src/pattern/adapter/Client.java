@@ -1,20 +1,27 @@
 package pattern.adapter;
 
 /**
- * @author ÕÅº½Ãú
- * ¿Í»§¶ËÀà
- * ÊÊÅäÆ÷Ä£Ê½
+ * @author å¼ èˆªé“­
+ * å®¢æˆ·ç«¯ç±»
+ * é€‚é…å™¨æ¨¡å¼
  */
 public class Client {
+
+
 	public void test1(Target t) {
 		t.handleReq();
 	}
+
 	public static void main(String[] args) {
+
 		Client c = new Client();
 		Adaptee adaptee = new Adaptee();
 		Target t = new Adpater();
 		c.test1(t);
+
+
 		Adpater adpater = new Adpater();
+		adpater.handleReq();
 		Target t1 = new Adpater2(adaptee);
 		t1.handleReq();
  	}

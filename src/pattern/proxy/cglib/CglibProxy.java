@@ -15,11 +15,11 @@ public class CglibProxy implements MethodInterceptor {
 		this.obj = obj;
 	}
 	private void writeLog() {
-		System.out.println("鎵撳嵃鏃ュ織----------");
+		System.out.println("打印日志----------");
 	}
 	
 	private void chechPrivilege() {
-		System.out.println("鏉冮檺妫�鏌�----------");
+		System.out.println("权限校验----------");
 	}
 	public Object createProxy() {
 		Enhancer enhancer = new Enhancer();

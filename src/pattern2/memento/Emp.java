@@ -5,7 +5,7 @@ public class Emp {
 	private int age;
 	private double salary;
 	
-	//½øĞĞ±¸Íü²Ù×÷²¢·µ»Ø±¸Íü¶ÔÏó
+	//è¿›è¡Œå¤‡å¿˜æ“ä½œå¹¶è¿”å›å¤‡å¿˜å¯¹è±¡
 	public EmpMemento memento() {
 		return new EmpMemento(this);
 	}

@@ -1,13 +1,13 @@
 package pattern2.state;
 
 /**
- * @author ÕÅº½Ãú
- *  ×´Ì¬Ä£Ê½
+ * @author å¼ èˆªé“­
+ *  çŠ¶æ€æ¨¡å¼
  */
 public class BookedState implements State{
 
 	@Override
 	public void handle() {
-		System.out.println("·¿¼ä¿ÕÏĞ£¬Ã»ÈË×¡£¡£¡£¡");
+		System.out.println("æˆ¿é—´ç©ºé—²ï¼Œæ²¡äººä½ï¼ï¼ï¼");
 	}
 }

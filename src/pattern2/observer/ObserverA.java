@@ -1,7 +1,7 @@
 package pattern2.observer;
 
 public class ObserverA implements Observer {
-	private int myState;    //myStateÒª¸úÄ¿±ê¶ÔÏóµÄstateÖµ±£³ÖÒ»ÖÂ
+	private int myState;    //myStateè¦è·Ÿç›®æ ‡å¯¹è±¡çš„stateå€¼ä¿æŒä¸€è‡´
 	
 	public int getMyState() {
 		return myState;

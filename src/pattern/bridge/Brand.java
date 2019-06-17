@@ -8,7 +8,7 @@ class Lenovo implements Brand{
 
 	@Override
 	public void sale() {
-		System.out.println("ÏúÊÛÁªÏëµçÄÔ");
+		System.out.println("é”€å”®è”æƒ³ç”µè„‘");
 	}
 	
 }
@@ -17,7 +17,7 @@ class Dell implements Brand{
 	
 	@Override
 	public void sale() {
-		System.out.println("ÏúÊÛDellµçÄÔ");
+		System.out.println("é”€å”®Dellç”µè„‘");
 	}
 	
 }

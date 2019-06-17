@@ -7,14 +7,14 @@ public class Client {
 		BankTemplateMethod btm2 = new BankTemplateMethod() {
 			@Override
 			public void transact() {
-				System.out.println("ÎÒÒª´æÇ®£¡£¡£¡");
+				System.out.println("æˆ‘è¦å­˜é’±ï¼ï¼ï¼");
 			}
 		};
 		btm2.process();
 		BankTemplateMethod btm3 = new BankTemplateMethod() {
 			@Override
 			public void transact() {
-				System.out.println("ÎÒÒªÀí²Æ£¡£¡£¡£¬ÊÖÀïÓĞÁ½Ç§Íòº«Ôª");
+				System.out.println("æˆ‘è¦ç†è´¢ï¼ï¼ï¼ï¼Œæ‰‹é‡Œæœ‰ä¸¤åƒä¸‡éŸ©å…ƒ");
 			}
 		};
 		btm3.process();
@@ -23,6 +23,6 @@ public class Client {
 class DrawMoney extends BankTemplateMethod{
 	@Override
 	public void transact() {
-		System.out.println("ÎÒÒªÈ¡¿î£¡£¡£¡");
+		System.out.println("æˆ‘è¦å–æ¬¾ï¼ï¼ï¼");
 	}
 }

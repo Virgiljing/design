@@ -1,15 +1,15 @@
 package pattern2.observer2;
 
 /**
- * @author �ź���
- *	�۲���ģʽ
- *   -�����ҳ��򣬷�����ת�������пͻ���
- *   -������Ϸ�����������ͻ��˵�״̬���зַ�
- *   -�ʼ�����
- *   -Servlet�У���������ʵ��
- *   -Android�У��Ĺ㲥����
- *   -JDK��AWT��ʱ�䴦��ģ��
- *   -�����̳�
+ * @author 张航铭
+ *	观察者模式
+ *   -聊天室程序，服务器转发给所有客户端
+ *   -网络游戏，服务器将客户端的状态进行分发
+ *   -邮件订阅
+ *   -Servlet中，监听器的实现
+ *   -Android中，的广播机制
+ *   -JDK的AWT中时间处理模型
+ *   -京东商城
  */
 public class Client {
 	public static void main(String[] args) {

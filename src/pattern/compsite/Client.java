@@ -1,30 +1,30 @@
 package pattern.compsite;
 
 /**
- * @author ÕÅº½Ãú
- * ×éºÏÄ£Ê½
- * ¿ª·¢ÖĞµÄÓ¦ÓÃ³¡¾°
- *   -²Ù×÷ÏµÍ³µÄ×ÊÔ´¹ÜÀíÆ÷
- *   -GUIÖĞµÄÈİÆ÷²ã´ÎÍ¼
- *   -XMLÎÄ¼ş½âÎö
- *   -OAÏµÍ³ÖĞ£¬×éÖ¯½á¹¹µÄ´¦Àí
- *   -Juintµ¥Ôª²âÊÔ¿ò¼Ü
- *   ´¦ÀíÊ÷ĞÎ½á¹¹
+ * @author å¼ èˆªé“­
+ * ç»„åˆæ¨¡å¼
+ * å¼€å‘ä¸­çš„åº”ç”¨åœºæ™¯
+ *   -æ“ä½œç³»ç»Ÿçš„èµ„æºç®¡ç†å™¨
+ *   -GUIä¸­çš„å®¹å™¨å±‚æ¬¡å›¾
+ *   -XMLæ–‡ä»¶è§£æ
+ *   -OAç³»ç»Ÿä¸­ï¼Œç»„ç»‡ç»“æ„çš„å¤„ç†
+ *   -Juintå•å…ƒæµ‹è¯•æ¡†æ¶
+ *   å¤„ç†æ ‘å½¢ç»“æ„
  *
  */
 public class Client {
 	public static void main(String[] args) {
 		AbstractFile f2,f3,f4,f5,f6;
-		Folder f1 = new Folder("ÎÒµÄÊÕ²Ø");
-		f2 = new ImageFile("Í¼Æ¬.jpg");
+		Folder f1 = new Folder("æˆ‘çš„æ”¶è—");
+		f2 = new ImageFile("å›¾ç‰‡.jpg");
 		f3 = new TextFile("hello.txt");
 		f1.add(f2);
 		f1.add(f3);
 		
 		
-		Folder f11 = new Folder("µçÓ°");
-		f4 = new VideoFile("Ğ¦°Á½­ºş.avi");
-		f5 = new VideoFile("ÉñµñÏÀÂÂ.avi");
+		Folder f11 = new Folder("ç”µå½±");
+		f4 = new VideoFile("ç¬‘å‚²æ±Ÿæ¹–.avi");
+		f5 = new VideoFile("ç¥é›•ä¾ ä¾£.avi");
 		f11.add(f4);
 		f11.add(f5);
 		f1.add(f11);

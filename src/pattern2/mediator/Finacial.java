@@ -10,12 +10,12 @@ public class Finacial implements Department {
 
 	@Override
 	public void selfAction() {
-		System.out.println("ÊıÇ®");
+		System.out.println("æ•°é’±");
 	}
 
 	@Override
 	public void outAction() {
-		System.out.println("»ã±¨¹¤×÷£¡Ç®Ì«¶àÔõÃ´»¨");
+		System.out.println("æ±‡æŠ¥å·¥ä½œï¼é’±å¤ªå¤šæ€ä¹ˆèŠ±");
 	}
 	
 }

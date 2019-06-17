@@ -4,7 +4,7 @@ public class YangPoxi implements IKindWomen {
 
 	@Override
 	public void happyWithMan() {
-		System.out.println("é˜Žå©†æƒ? is happyingã€‚ã?‚ã?‚ã??");
+		System.out.println("é˜Žå©†æƒœ is happyingã€‚?");
 	}
 
 	@Override

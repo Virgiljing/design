@@ -1,15 +1,15 @@
 package pattern.decorator;
 
 /**
- * @author ÕÅº½Ãú
- * ×°ÊÎÄ£Ê½£¨decorator£©
- * ¿ª·¢ÖĞÊ¹ÓÃµÄ³¡¾°
- *   -IOÖĞÊäÈëÁ÷ºÍÊä³öÁ÷µÄÉè¼Æ
- *   -Swing°üÖĞÍ¼ĞÎ½çÃæ¹¹¼ş¹¦ÄÜ
- *   -Sevlet APIÖĞÌá¹©µÄrequest¶ÔÏóµÄDecoratorÉè¼ÆÄ£Ê½µÄÄ¬ÈÏÊµÏÖÀà
- *    HttpServletRequestWrapper , HttpServletResponseWrapperÀà
- *    ÔöÇ¿ÁËrequest¶ÔÏóµÄ¹¦ÄÜ
- *   -Struts2ÖĞ£¬request£¬response£¬session¶ÔÏóµÄ´¦Àí
+ * @author å¼ èˆªé“­
+ * è£…é¥°æ¨¡å¼ï¼ˆdecoratorï¼‰
+ * å¼€å‘ä¸­ä½¿ç”¨çš„åœºæ™¯
+ *   -IOä¸­è¾“å…¥æµå’Œè¾“å‡ºæµçš„è®¾è®¡
+ *   -SwingåŒ…ä¸­å›¾å½¢ç•Œé¢æ„ä»¶åŠŸèƒ½
+ *   -Sevlet APIä¸­æä¾›çš„requestå¯¹è±¡çš„Decoratorè®¾è®¡æ¨¡å¼çš„é»˜è®¤å®ç°ç±»
+ *    HttpServletRequestWrapper , HttpServletResponseWrapperç±»
+ *    å¢å¼ºäº†requestå¯¹è±¡çš„åŠŸèƒ½
+ *   -Struts2ä¸­ï¼Œrequestï¼Œresponseï¼Œsessionå¯¹è±¡çš„å¤„ç†
  */
 public class Client {
 

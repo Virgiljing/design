@@ -1,13 +1,13 @@
 package pattern2.strategy;
 
 /**
- * @author ÕÅº½Ãú
- *	¸ºÔğºÍ¾ßÌåµÄ²ßÂÔÀà½»»¥
- *	ÕâÑùµÄ»°£¬¾ßÌåËã·¨Ö±½ÓºÍ¿Í»§¶ËµÄµ÷ÓÃ·ÖÀë
- *  springµÄÒÀÀµ×¢Èë£¬¿ÉÒÔÍ¨¹ıÅäÖÃÎÄ¼ş×¢½â×¢Èë
+ * @author å¼ èˆªé“­
+ *	è´Ÿè´£å’Œå…·ä½“çš„ç­–ç•¥ç±»äº¤äº’
+ *	è¿™æ ·çš„è¯ï¼Œå…·ä½“ç®—æ³•ç›´æ¥å’Œå®¢æˆ·ç«¯çš„è°ƒç”¨åˆ†ç¦»
+ *  springçš„ä¾èµ–æ³¨å…¥ï¼Œå¯ä»¥é€šè¿‡é…ç½®æ–‡ä»¶æ³¨è§£æ³¨å…¥
  */
 public class Context {
-	private Strategy strategy;//²ÉÓÃµ±Ç°Ëã·¨
+	private Strategy strategy;//é‡‡ç”¨å½“å‰ç®—æ³•
 
 	public Context(Strategy strategy) {
 		super();
@@ -18,6 +18,6 @@ public class Context {
 		this.strategy = strategy;
 	}
 	public void pringPrice(double s) {
-		System.out.println("ÄãµÄ±¨¼Û£º"+strategy.getPrice(s));
+		System.out.println("ä½ çš„æŠ¥ä»·ï¼š"+strategy.getPrice(s));
 	}
 }

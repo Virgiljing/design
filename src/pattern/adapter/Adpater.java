@@ -1,8 +1,8 @@
 package pattern.adapter;
 
 /**
- * @author ÕÅº½Ãú
- *  ÊÊÅäÆ÷±¾Éí(ÀàÊÊÅäÆ÷·½Ê½)
+ * @author å¼ èˆªé“­
+ *  é€‚é…å™¨æœ¬èº«(ç±»é€‚é…å™¨æ–¹å¼)
  */
 public class Adpater extends Adaptee implements Target{
 

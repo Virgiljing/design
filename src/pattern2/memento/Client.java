@@ -4,15 +4,15 @@ public class Client {
 
 	public static void main(String[] args) {
 		CareTaker taker = new CareTaker();
-		Emp emp = new Emp("ÕÅÈı", 29, 90000);
-		System.out.println("µÚÒ»´Î´´½¨¶ÔÏó£º"+emp.getEname()+"-----"+emp.getAge()+"-----"+emp.getSalary());
-		taker.setMemento(emp.memento());//±¸ÍüÒ»´Î
+		Emp emp = new Emp("å¼ ä¸‰", 29, 90000);
+		System.out.println("ç¬¬ä¸€æ¬¡åˆ›å»ºå¯¹è±¡ï¼š"+emp.getEname()+"-----"+emp.getAge()+"-----"+emp.getSalary());
+		taker.setMemento(emp.memento());//å¤‡å¿˜ä¸€æ¬¡
 		emp.setAge(88);
-		emp.setEname("ÀîËÄ");
+		emp.setEname("æå››");
 		emp.setSalary(8000);
-		System.out.println("µÚ¶ş´Î´´½¨¶ÔÏó£º"+emp.getEname()+"-----"+emp.getAge()+"-----"+emp.getSalary());
-		emp.recovery(taker.getMemento());//»Ö¸´µ½±¸ÍüÂ¼¶ÔÏó±£´æµÄ×´Ì¬
-		System.out.println("µÚÈı´Î´´½¨¶ÔÏó£º"+emp.getEname()+"-----"+emp.getAge()+"-----"+emp.getSalary());
+		System.out.println("ç¬¬äºŒæ¬¡åˆ›å»ºå¯¹è±¡ï¼š"+emp.getEname()+"-----"+emp.getAge()+"-----"+emp.getSalary());
+		emp.recovery(taker.getMemento());//æ¢å¤åˆ°å¤‡å¿˜å½•å¯¹è±¡ä¿å­˜çš„çŠ¶æ€
+		System.out.println("ç¬¬ä¸‰æ¬¡åˆ›å»ºå¯¹è±¡ï¼š"+emp.getEname()+"-----"+emp.getAge()+"-----"+emp.getSalary());
 	}
 
 }

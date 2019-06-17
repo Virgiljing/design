@@ -1,8 +1,8 @@
 package pattern.bridge;
 
 /**
- * µçÄÔÀàĞÍµÄÎ¬¶È
- * @author ÕÅº½Ãú
+ * ç”µè„‘ç±»å‹çš„ç»´åº¦
+ * @author å¼ èˆªé“­
  *
  */
 public class Computer2 {
@@ -24,7 +24,7 @@ class Laptop2 extends Computer2{
 	@Override
 	public void sale() {
 		super.sale();
-		System.out.println("ÏúÊÛ±Ê¼Ç±¾");
+		System.out.println("é”€å”®ç¬”è®°æœ¬");
 	}
 	
 }
@@ -36,7 +36,7 @@ class Desktop2 extends Computer2{
 	@Override
 	public void sale() {
 		super.sale();
-		System.out.println("ÏúÊÛÌ¨Ê½»ú");
+		System.out.println("é”€å”®å°å¼æœº");
 	}
 	
 }
@@ -48,7 +48,7 @@ class Pad2 extends Computer2{
 	@Override
 	public void sale() {
 		super.sale();
-		System.out.println("ÏúÊÛÆ½°åµçÄÔ");
+		System.out.println("é”€å”®å¹³æ¿ç”µè„‘");
 	}
 	
 }

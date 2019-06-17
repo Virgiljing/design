@@ -20,5 +20,5 @@ class Man implements IPerson {
 
 	@Override
 	public void study() {
-		System.out.println("是男人就学Java！！�?");
+		System.out.println("是男人就学Java！！！");
 	}}

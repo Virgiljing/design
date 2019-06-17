@@ -1,17 +1,18 @@
 package pattern2.strategy;
 
 /**
- * @author ÕÅº½Ãú
- * ¿ª·¢³¡¾°
- * -JAVASEÖĞµÄGUI±à³Ì£¬²¼¾Ö¹ÜÀí
- * -Spring¿ò¼ÜÖĞ£¬Resource½Ó¿Ú£¬×ÊÔ´·ÃÎÊ²ßÂÔ
+ * @author å¼ èˆªé“­
+ * å¼€å‘åœºæ™¯
+ * -JAVASEä¸­çš„GUIç¼–ç¨‹ï¼Œå¸ƒå±€ç®¡ç†
+ * -Springæ¡†æ¶ä¸­ï¼ŒResourceæ¥å£ï¼Œèµ„æºè®¿é—®ç­–ç•¥
  * -javax.servlet.http.HttpServlet#service()
  *
  */
 public class Client {
 	public static void main(String[] args) {
 		Strategy s1 = new OldCustomerFewStrategy();
-		Context context = new Context(s1);
+		Strategy s2 = new NewCustomerFewStrategy();
+		Context context = new Context(s2);
 		context.pringPrice(100);
 	}
 }

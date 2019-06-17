@@ -4,7 +4,7 @@ public class NewCustomerManyStrategy implements Strategy {
 
 	@Override
 	public double getPrice(double standardPrice) {
-		System.out.println("´ò¾ÅÕÛ");
+		System.out.println("æ‰“ä¹æŠ˜");
 		return standardPrice*0.9;
 	}
 	

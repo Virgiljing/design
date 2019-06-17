@@ -8,7 +8,7 @@ class Car implements ICar{
 	
 	@Override
 	public void move() {
-		System.out.println("陆地上跑");
+		System.out.println("闄嗗湴涓婅窇");
 	}
 	
 }
@@ -30,7 +30,7 @@ class FlyCar extends SupperCar{
 		super(car);
 	}
 	public void fly() {
-		System.out.println("天上飞！");
+		System.out.println("澶╀笂椋烇紒");
 	}
 	@Override
 	public void move() {
@@ -45,7 +45,7 @@ class WaterCar extends SupperCar{
 		super(car);
 	}
 	public void swim() {
-		System.out.println("水上游！");
+		System.out.println("姘翠笂娓革紒");
 	}
 	@Override
 	public void move() {
@@ -60,7 +60,7 @@ class AICar extends SupperCar{
 		super(car);
 	}
 	public void autoMove() {
-		System.out.println("自己跑！");
+		System.out.println("鑷繁璺戯紒");
 	}
 	@Override
 	public void move() {

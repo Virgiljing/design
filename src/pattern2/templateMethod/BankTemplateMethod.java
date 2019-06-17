@@ -1,18 +1,18 @@
 package pattern2.templateMethod;
 
 /**
- * @author ÕÅº½Ãú
- *  Ä£°å·½·¨
+ * @author å¼ èˆªé“­
+ *  æ¨¡æ¿æ–¹æ³•
  */
 public abstract class BankTemplateMethod {
 	public void takeNumber() {
-		System.out.println("ÅÅ¶ÓÈ¡ºÅ");
+		System.out.println("æ’é˜Ÿå–å·");
 	}
 	public abstract void transact();
 	public void evaluate() {
-		System.out.println("·´À¡ÆÀ·Ö");
+		System.out.println("åé¦ˆè¯„åˆ†");
 	}
-	public final void process() {//Ä£°å·½·¨
+	public final void process() {//æ¨¡æ¿æ–¹æ³•
 		this.takeNumber();
 		this.transact();
 		this.evaluate();

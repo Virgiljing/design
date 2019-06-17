@@ -7,7 +7,7 @@ public class ConcreteSubject extends Subject{
 	}
 	public void setState(int state) {
 		this.state = state;
-		//Ä¿±ê¶ÔÏó·¢Éú±ä»¯Í¨ÖªËùÓĞ¹Û²ìÕß
+		//ç›®æ ‡å¯¹è±¡å‘ç”Ÿå˜åŒ–é€šçŸ¥æ‰€æœ‰è§‚å¯Ÿè€…
 		this.notifyAllObservers();
 	}
 }

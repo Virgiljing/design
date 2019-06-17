@@ -7,9 +7,9 @@ import java.util.Stack;
 public class CareTaker {
 	private EmpMemento memento;
 	
-	//可以进行多次备忘
+	//鍙互杩涜澶氭澶囧繕
 	private List<EmpMemento> list = new ArrayList<>();
-	//栈先进先出进行备忘录保存
+	//鏍堝厛杩涘厛鍑鸿繘琛屽蹇樺綍淇濆瓨
 	private Stack<EmpMemento> stack = new Stack<>();
 	public EmpMemento getMemento() {
 		return memento;

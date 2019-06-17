@@ -25,7 +25,7 @@ public class ConcreteMyAggregate {
 		return new ConcreteIterator();
 	}
 	private class ConcreteIterator implements MyIterator{
-		private int cursor;//”Œ±Í
+		private int cursor;//Ê∏∏Ê†á
 		@Override
 		public void first() {
 			cursor = 0;

@@ -1,20 +1,20 @@
 package pattern.flyweight;
 
 /**
- * @author ÕÅº½Ãú
- * ÏíÔªÄ£Ê½
- *   -¼«´ó¼õÉÙÄÚ´æÖĞ¶ÔÏóµÄÊıÁ¿
+ * @author å¼ èˆªé“­
+ * äº«å…ƒæ¨¡å¼
+ *   -æå¤§å‡å°‘å†…å­˜ä¸­å¯¹è±¡çš„æ•°é‡
  *   -
  *
  */
 public class Client {
 
 	public static void main(String[] args) {
-		ChessFlyWeight chess1 = ChessFlyWeightFactory.getChess("ºÚÉ«");
-		ChessFlyWeight chess2 = ChessFlyWeightFactory.getChess("ºÚÉ«");
+		ChessFlyWeight chess1 = ChessFlyWeightFactory.getChess("é»‘è‰²");
+		ChessFlyWeight chess2 = ChessFlyWeightFactory.getChess("é»‘è‰²");
 		System.out.println(chess1);
 		System.out.println(chess2);
-		System.out.println("Ôö¼ÓÍâ²¿×´Ì¬´¦Àí=======");
+		System.out.println("å¢åŠ å¤–éƒ¨çŠ¶æ€å¤„ç†=======");
 		chess1.display(new Coordinate(5,6));
 		chess2.display(new Coordinate(88,60));
 	}

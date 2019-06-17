@@ -1,20 +1,20 @@
 package pattern.compsite;
-//组合模式
+//缁勫悎妯″紡
 /**
- * 抽象组件
+ * 鎶借薄缁勪欢
  */
 public interface Component {
 	void operation();
 }
 
 /**
- * 叶子组件
+ * 鍙跺瓙缁勪欢
  */
 interface Leaf extends Component{
 	
 }
 /**
- *	容器构建角色
+ *	瀹瑰櫒鏋勫缓瑙掕壊
  */
 interface Composite extends Component{
 	void add (Component c);

@@ -5,9 +5,9 @@ import java.util.Observable;
 public class ConcreteSubject extends Observable{
 	private int state;
 	public void set(int s) {
-		state = s;//Ä¿±ê¶ÔÏó×´Ì¬·¢ÉúÁË¸Ä±ä
-		setChanged();//±íÊ¾Ä¿±ê¶ÔÏóÒÑ¾­×öÁË¸ü¸Ä
-		notifyObservers();//Í¨ÖªËùÓĞ¹Û²ìÕß
+		state = s;//ç›®æ ‡å¯¹è±¡çŠ¶æ€å‘ç”Ÿäº†æ”¹å˜
+		setChanged();//è¡¨ç¤ºç›®æ ‡å¯¹è±¡å·²ç»åšäº†æ›´æ”¹
+		notifyObservers();//é€šçŸ¥æ‰€æœ‰è§‚å¯Ÿè€…
 	}
 	public int getState() {
 		return state;

@@ -10,12 +10,12 @@ public class Market implements Department {
 
 	@Override
 	public void selfAction() {
-		System.out.println("µ÷ÑĞÊĞ³¡£¬ÅÜÈ¥½ÓÏîÄ¿");
+		System.out.println("è°ƒç ”å¸‚åœºï¼Œè·‘å»æ¥é¡¹ç›®");
 	}
 
 	@Override
 	public void outAction() {
-		System.out.println("»ã±¨¹¤×÷£¡ÏîÄ¿³Ğ½ÓµÄ½ø¶È£¬ĞèÒª×Ê½ğ");
+		System.out.println("æ±‡æŠ¥å·¥ä½œï¼é¡¹ç›®æ‰¿æ¥çš„è¿›åº¦ï¼Œéœ€è¦èµ„é‡‘");
 		m.command("finacial");
 	}
 	
