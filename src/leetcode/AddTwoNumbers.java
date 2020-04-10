@@ -2,7 +2,14 @@ package leetcode;
 
 public class AddTwoNumbers {
 
-    class ListNode {
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        ListNode listNode1 = new ListNode(3);
+        ListNode listNode2 = new ListNode(6);
+        ListNode listNode = solution.addTwoNumbers(listNode1, listNode2);
+    }
+
+    static class ListNode {
         int val;
         ListNode next;
 
@@ -11,7 +18,7 @@ public class AddTwoNumbers {
         }
     }
 
-    class Solution {
+    static class Solution {
         public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
             String s1= getNumber(l1);
             String s2= getNumber(l2);
@@ -24,14 +31,15 @@ public class AddTwoNumbers {
             for (byte aByte : s3.getBytes()) {
                 ListNode newlistNode = new ListNode(aByte);
                 if (listNode != null) {
-                    listNode.next = newlistNode;
+                    nextNode.next = newlistNode;
                     nextNode = newlistNode;
                 }else {
                     listNode = newlistNode;
+                    nextNode = listNode;
                 }
             }
 
-            return null;
+            return listNode;
         }
 
         private String getNumber(ListNode l1) {
