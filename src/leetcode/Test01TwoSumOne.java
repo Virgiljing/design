@@ -1,11 +1,10 @@
 package leetcode;
 
-import java.sql.SQLOutput;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Test01 {
+public class Test01TwoSumOne {
     public static Solution solution = new Solution();
     public static void main(String[] args) {
 
@@ -27,7 +26,7 @@ public class Test01 {
          * @param target
          * @return
          */
-        public int[] twoSum(int[] nums, int target) {
+        public int[] twoSumERROR(int[] nums, int target) {
             for (int i = 0; i < nums.length - 1; i++) {
                 for (int j = i+1; j < nums.length; j++) {
                     if (nums[i] + nums[j] == target) {
